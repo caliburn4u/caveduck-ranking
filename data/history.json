@@ -2,57 +2,65 @@
   {
     "date": "2026-08-01",
     "weekday": "토",
-    "time_kst": "23:50",
+    "time_kst": "23:59",
     "source": "github",
-    "total_top20": 46835
+    "total_top20": 46835,
+    "time_source": "github_commit"
   },
   {
     "date": "2026-08-02",
     "weekday": "일",
-    "time_kst": "22:16",
+    "time_kst": "22:03",
     "source": "github",
-    "total_top20": 34900
+    "total_top20": 34900,
+    "time_source": "github_commit"
   },
   {
     "date": "2026-08-03",
     "weekday": "월",
-    "time_kst": "22:11",
+    "time_kst": "22:03",
     "source": "github",
-    "total_top20": 37100
+    "total_top20": 37100,
+    "time_source": "github_commit"
   },
   {
     "date": "2026-08-04",
     "weekday": "화",
-    "time_kst": "22:11",
+    "time_kst": "22:03",
     "source": "github",
-    "total_top20": 34820
+    "total_top20": 34820,
+    "time_source": "github_commit"
   },
   {
     "date": "2026-08-05",
     "weekday": "수",
-    "time_kst": "22:12",
+    "time_kst": "22:03",
     "source": "github",
-    "total_top20": 42700
+    "total_top20": 42700,
+    "time_source": "github_commit"
   },
   {
     "date": "2026-08-06",
     "weekday": "목",
-    "time_kst": "22:11",
+    "time_kst": "22:03",
     "source": "github",
-    "total_top20": 29800
+    "total_top20": 29800,
+    "time_source": "github_commit"
   },
   {
     "date": "2026-08-07",
     "weekday": "금",
-    "time_kst": "22:11",
+    "time_kst": "22:03",
     "source": "github",
-    "total_top20": 39800
+    "total_top20": 39800,
+    "time_source": "github_commit"
   },
   {
     "date": "2026-08-08",
     "weekday": "토",
-    "time_kst": "22:11",
+    "time_kst": "22:03",
     "source": "github",
-    "total_top20": 48200
+    "total_top20": 48200,
+    "time_source": "github_commit"
   }
 ]
