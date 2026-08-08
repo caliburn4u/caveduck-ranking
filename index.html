@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>케이브덕 활성도 2026-08-08</title>
+  <style>
+    :root {
+      --bg: #11111b; --card: #1e1e2e; --text: #cdd6f4; --muted: #6c7086;
+      --line: rgba(255,255,255,0.08); --accent: #a6e3a1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.5;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { font-size: 1.25rem; font-weight: 600; margin: 0 0 4px; }
+    .tag { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+      padding: 16px 18px; margin-bottom: 12px;
+    }
+    .label { color: var(--muted); font-size: 0.8rem; margin-bottom: 6px; }
+    .hero { font-size: 2.4rem; font-weight: 700; letter-spacing: -0.02em; }
+    .value { font-size: 1.25rem; font-weight: 600; }
+    .sub, .meta { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 560px) { .grid2 { grid-template-columns: 1fr; } }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.95rem; }
+    .chart { width: 100%; border-radius: 12px; display: block; margin-top: 8px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th, td { padding: 8px 6px; border-bottom: 1px solid var(--line); text-align: left; }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    footer {
+      margin-top: 20px; color: var(--muted); font-size: 0.8rem; line-height: 1.45;
+    }
+    a { color: #89b4fa; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>📊 케이브덕 활성도 일일 보고</h1>
+    <div class="tag">Top20 채팅 합산 · 플랫폼 활성도 참고 지표</div>
+    
+    <section class="card">
+      <div class="label">오늘 상위20 총합</div>
+      <div class="hero" style="color:#a6e3a1">48,200</div>
+      <div class="meta">2026-08-08 (토) 22:11 KST</div>
+    </section>
+
+    <section class="card">
+      <div class="label">어제 대비</div>
+      <div class="value">▲ +8,400 (+21.1%)</div>
+      <div class="sub">어제 39,800 (22:11)</div>
+    </section>
+
+    <section class="card grid2">
+      <div>
+        <div class="label">7일 평균</div>
+        <div class="value">38,189</div>
+        <div class="sub">평균 대비 ▲ +10,011 (+26.2%)</div>
+      </div>
+      <div>
+        <div class="label">7일 범위</div>
+        <div class="mono">29,800 ·············● 48,200</div>
+        <div class="sub">● 오늘 48,200 · 순위: 고점</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="label">요일 대비 (지난주 토)</div>
+      <div class="value">46,835 → 48,200</div>
+      <div class="sub">▲ +1,365 (+2.9%)</div>
+    </section>
+
+    <section class="card summary">
+      <div class="label">요약</div>
+      <div class="value">어제보다 상승 · 7일 상승 · 최근 고점 · 2일 연속 상승 · 역대 고점</div>
+    </section>
+    <section class="card">
+      <div class="label">추이</div>
+      <img class="chart" src="https://quickchart.io/chart?v=4&w=720&h=320&devicePixelRatio=2&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2208/02%22%2C%2208/03%22%2C%2208/04%22%2C%2208/05%22%2C%2208/06%22%2C%2208/07%22%2C%2208/08%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%EC%83%81%EC%9C%8420%22%2C%22data%22%3A%5B34900%2C37100%2C34820%2C42700%2C29800%2C39800%2C48200%5D%2C%22borderColor%22%3A%22%23a6e3a1%22%2C%22backgroundColor%22%3A%22rgba%28166%2C227%2C161%2C0.12%29%22%2C%22borderWidth%22%3A2.5%2C%22pointRadius%22%3A4%2C%22pointBackgroundColor%22%3A%22%23a6e3a1%22%2C%22pointBorderColor%22%3A%22%231e1e2e%22%2C%22pointBorderWidth%22%3A2%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%7D%5D%7D%2C%22options%22%3A%7B%22layout%22%3A%7B%22padding%22%3A12%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%EC%83%81%EC%9C%8420%20%EC%B4%9D%ED%95%A9%20%EC%B6%94%EC%9D%B4%22%2C%22color%22%3A%22%23cdd6f4%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22padding%22%3A%7B%22top%22%3A4%2C%22bottom%22%3A12%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236c7086%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%2C%22border%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.08%29%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%236c7086%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.05%29%22%7D%2C%22border%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%2C%22backgroundColor%22%3A%22%231e1e2e%22%7D" alt="상위20 총합 추이"/>
+    </section>
+    <section class="card">
+      <div class="label">최근 기록</div>
+      <table>
+        <thead><tr><th>날짜</th><th>시각</th><th>총합</th></tr></thead>
+        <tbody><tr><td>2026-08-08</td><td>22:11</td><td class='num'>48,200</td></tr><tr><td>2026-08-07</td><td>22:11</td><td class='num'>39,800</td></tr><tr><td>2026-08-06</td><td>22:11</td><td class='num'>29,800</td></tr><tr><td>2026-08-05</td><td>22:12</td><td class='num'>42,700</td></tr><tr><td>2026-08-04</td><td>22:11</td><td class='num'>34,820</td></tr><tr><td>2026-08-03</td><td>22:11</td><td class='num'>37,100</td></tr><tr><td>2026-08-02</td><td>22:16</td><td class='num'>34,900</td></tr><tr><td>2026-08-01</td><td>23:50</td><td class='num'>46,835</td></tr></tbody>
+      </table>
+    </section>
+    <footer>
+      ※ 상위 20개 캐릭터 채팅 수만 합산한 지표입니다. 플랫폼 전체 활성도와는 다를 수 있으니 대략적인 참고용으로만 봐 주세요.<br/>
+      데이터: GitHub 스냅샷 · 생성 2026-08-08 22:11 KST
+    </footer>
+  </main>
+</body>
+</html>
