@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-08-01",
+    "weekday": "토",
+    "time_kst": "23:50",
+    "source": "github",
+    "total_top20": 46835
+  },
+  {
+    "date": "2026-08-02",
+    "weekday": "일",
+    "time_kst": "22:16",
+    "source": "github",
+    "total_top20": 34900
+  },
+  {
+    "date": "2026-08-03",
+    "weekday": "월",
+    "time_kst": "22:11",
+    "source": "github",
+    "total_top20": 37100
+  },
+  {
+    "date": "2026-08-04",
+    "weekday": "화",
+    "time_kst": "22:11",
+    "source": "github",
+    "total_top20": 34820
+  },
+  {
+    "date": "2026-08-05",
+    "weekday": "수",
+    "time_kst": "22:12",
+    "source": "github",
+    "total_top20": 42700
+  },
+  {
+    "date": "2026-08-06",
+    "weekday": "목",
+    "time_kst": "22:11",
+    "source": "github",
+    "total_top20": 29800
+  },
+  {
+    "date": "2026-08-07",
+    "weekday": "금",
+    "time_kst": "22:11",
+    "source": "github",
+    "total_top20": 39800
+  },
+  {
+    "date": "2026-08-08",
+    "weekday": "토",
+    "time_kst": "22:11",
+    "source": "github",
+    "total_top20": 48200
+  }
+]
