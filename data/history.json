@@ -70,5 +70,13 @@
     "source": "github",
     "total_top20": 34800,
     "time_source": "github_commit"
+  },
+  {
+    "date": "2026-08-10",
+    "weekday": "월",
+    "time_kst": "22:03",
+    "source": "github",
+    "total_top20": 26978,
+    "time_source": "github_commit"
   }
 ]
