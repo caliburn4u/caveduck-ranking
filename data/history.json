@@ -94,5 +94,13 @@
     "top1": 3900,
     "top10": 1600,
     "time_source": "github_commit"
+  },
+  {
+    "date": "2026-08-13",
+    "weekday": "목",
+    "time_kst": "22:04",
+    "source": "github",
+    "total_top20": 26978,
+    "time_source": "github_commit"
   }
 ]
