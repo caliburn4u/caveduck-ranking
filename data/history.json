@@ -115,7 +115,7 @@
     "weekday": "토",
     "time_kst": "22:03",
     "source": "github",
-    "total_top20": 68800,
-    "time_source": "github_commit"
+    "total_top20": 36736,
+    "corrected": true
   }
 ]
