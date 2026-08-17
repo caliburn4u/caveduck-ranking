@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>케이브덕 활성도 2026-08-17</title>
+<style>
+:root{--bg:#0b0b10;--card:#181825;--card2:#1e1e2e;--text:#e4e4ef;--muted:#7f849c;--line:rgba(255,255,255,.08);--up:#a6e3a1;--down:#f38ba8;--accent:#a6e3a1;--warn:#f9e2af}
+*{box-sizing:border-box}
+body{margin:0;font-family:Pretendard,"Apple SD Gothic Neo",system-ui,sans-serif;background:radial-gradient(1000px 500px at 0% -10%,rgba(137,180,250,.07),transparent 50%),var(--bg);color:var(--text);line-height:1.55}
+main{max-width:800px;margin:0 auto;padding:28px 16px 64px}
+h1{font-size:1.2rem;font-weight:700;margin:0 0 6px}
+.report-date{font-size:1.25rem;font-weight:700;margin:0 0 6px}
+.tag{color:var(--muted);font-size:.82rem;margin-bottom:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:12px}
+.hero{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:12px;border-left:4px solid var(--accent)}
+.hero-label{color:var(--muted);font-size:.78rem}
+.hero-num{font-size:clamp(2.3rem,7vw,3rem);font-weight:800;color:var(--accent);letter-spacing:-.03em;line-height:1.1;margin:4px 0}
+.judgment{font-size:1.05rem;font-weight:600;margin:10px 0 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font-size:.78rem;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.04)}
+.delta-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px}
+.delta-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:560px){.delta-grid{grid-template-columns:1fr 1fr}}
+.k{color:var(--muted);font-size:.72rem}.v{font-size:1.15rem;font-weight:700}.v.muted{color:var(--muted);font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.intensity{margin-top:12px;font-size:.9rem;font-weight:600}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+@media(max-width:560px){.grid2{grid-template-columns:1fr}}
+.stat-label{color:var(--muted);font-size:.75rem;margin-bottom:4px}
+.stat-val{font-size:1.1rem;font-weight:700}
+.stat-sub{color:var(--muted);font-size:.8rem;margin-top:2px}
+.sl{color:var(--muted);font-size:.72rem;letter-spacing:.04em;margin:16px 0 8px 2px}
+.track{position:relative;height:12px;border-radius:999px;background:rgba(255,255,255,.06);margin:16px 0 8px}
+.fill{position:absolute;inset:0 auto 0 0;width:100.00%;border-radius:999px;background:linear-gradient(90deg,rgba(137,180,250,.2),var(--accent))}
+.mk{position:absolute;top:50%;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(0,0,0,.35);left:100.00%}
+.labs{display:flex;justify-content:space-between;color:var(--muted);font-size:.8rem}
+.vol-track{position:relative;height:8px;border-radius:999px;background:rgba(255,255,255,.06);margin:12px 0 6px}
+.vol-fill{position:absolute;inset:0 auto 0 0;width:72.1%;border-radius:999px;background:#89b4fa}
+.vol-mk{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#cdd6f4;left:72.1%}
+.brief .b-head{font-size:1.15rem;font-weight:700;margin:0 0 12px;color:var(--accent)}
+.brief p{margin:0 0 10px;color:#bac2de;font-size:.95rem}
+.brief .b-aux{color:var(--muted);font-size:.88rem;border-top:1px solid var(--line);padding-top:10px;margin-top:4px}
+img.chart{width:100%;max-width:100%;height:auto;border-radius:12px;display:block;background:#181825;-webkit-user-select:none}
+@media(max-width:560px){img.chart{min-height:220px}}
+@media(min-width:561px){img.chart{min-height:280px}}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{text-align:left;color:var(--muted);font-weight:500;padding:8px;border-bottom:1px solid var(--line);font-size:.75rem}
+td{padding:9px 8px;border-bottom:1px solid var(--line)}
+td.num{text-align:right;font-weight:600}
+tr.is-today td{color:var(--accent)}
+.st{font-size:.78rem;padding:2px 8px;border-radius:999px}
+.st.ok{background:rgba(166,227,161,.12);color:var(--up)}
+.st.warn{background:rgba(249,226,175,.12);color:var(--warn)}
+.st.off{background:rgba(88,91,112,.25);color:#a6adc8}
+.method{color:var(--muted);font-size:.8rem;line-height:1.6}
+footer{margin-top:20px;color:var(--muted);font-size:.76rem;line-height:1.55}
+</style></head><body><main>
+<h1>케이브덕 활성도 일일 보고</h1>
+<div class="report-date">2026-08-17 (월) 22:04 KST</div>
+<div class="tag">Top20 채팅 합산 · 플랫폼 활성도 참고 지표 · 관측 17일</div>
+<section class="hero">
+  <div class="hero-label">TODAY · 상위20 총합</div>
+  <div class="hero-num">49,000</div>
+  <p class="judgment">📈 큰 폭 상승</p>
+  <div class="chips"><span class="chip">🔥 현재 수준 <b>매우 높음</b></span><span class="chip">📈 단기 <b>4일 연속 상승</b></span><span class="chip">➡️ 주간 <b>횡보</b></span><span class="chip">국면 <b>고활성 · 안정</b></span></div>
+</section>
+<div class="delta-card"><div class="delta-grid"><div><div class="k">오늘</div><div class="v">49,000</div></div><div><div class="k">전일</div><div class="v muted">43,000</div></div><div><div class="k">변화량</div><div class="v up">+6,000</div></div><div><div class="k">변화율</div><div class="v up">+14.0%</div></div></div><div class="intensity">📈 큰 변화</div></div>
+
+<div class="grid2">
+  <div class="card"><div class="stat-label">7일 평균 대비</div>
+  <div class="stat-val up">+39.6%</div>
+  <div class="stat-sub">7일 평균 35,111</div></div>
+  <div class="card"><div class="stat-label">변화 강도</div>
+  <div class="stat-val">📈 큰 변화</div>
+  <div class="stat-sub">전일 대비 변화율 기준</div></div>
+</div>
+<div class="sl">CURRENT POSITION</div>
+<section class="card">
+  <div class="stat-label">관측 기간 활성도 범위 내 위치 (17일)</div>
+  <div class="track"><div class="fill"></div><div class="mk"></div></div>
+  <div class="labs"><span>26,978</span><span>49,000</span></div>
+  <div class="stat-sub" style="margin-top:8px">오늘 49,000 · 현재 관측 구간 기준</div>
+</section>
+<section class="card">
+  <div class="stat-label">변동성 (7일 상대 표준편차)</div>
+  <div class="stat-val">21.6% · 높음</div>
+  <div class="vol-track"><div class="vol-fill"></div><div class="vol-mk"></div></div>
+  <div class="labs"><span>낮음</span><span>높음</span></div>
+  <div class="stat-sub" style="margin-top:8px">최근 일별 활성도 변동폭이 큰 편입니다.</div>
+</section>
+<div class="sl">TODAY'S BRIEFING</div>
+<section class="card brief"><p class="b-head">📈 큰 폭 상승</p><p>오늘 케이브덕 활성도는 큰 폭으로 상승했습니다.</p><p>Top20 합산은 <b>49,000</b>으로 전일보다 <b>+6,000</b> (+14.0%) 증가했습니다.</p><p>현재까지의 관측 기간 중 <b>최고치</b>를 기록했습니다.</p><p class="b-aux">참고로 직전 동일 요일 대비 +22,022 (+81.6%) 높은 수준입니다.</p></section>
+<div class="sl">ACTIVITY TREND</div>
+<section class="card"><img class="chart" src="https://quickchart.io/chart?v=4&w=1000&h=400&devicePixelRatio=3&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2208-11%20%28%5Cud654%29%22%2C%2208-12%20%28%5Cuc218%29%22%2C%2208-13%20%28%5Cubaa9%29%22%2C%2208-14%20%28%5Cuae08%29%22%2C%2208-15%20%28%5Cud1a0%29%22%2C%2208-16%20%28%5Cuc77c%29%22%2C%2208-17%20%28%5Cuc6d4%29%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%5Cuc0c1%5Cuc70420%22%2C%22data%22%3A%5B30500%2C29000%2C26978%2C30565%2C36736%2C43000%2C49000%5D%2C%22borderColor%22%3A%22%23a6e3a1%22%2C%22backgroundColor%22%3A%22rgba%28166%2C227%2C161%2C0.16%29%22%2C%22borderWidth%22%3A3.5%2C%22pointRadius%22%3A%5B5%2C5%2C5%2C5%2C5%2C5%2C8%5D%2C%22pointHoverRadius%22%3A9%2C%22pointBackgroundColor%22%3A%22%23a6e3a1%22%2C%22pointBorderColor%22%3A%22%2311111b%22%2C%22pointBorderWidth%22%3A2%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%7D%2C%7B%22label%22%3A%227%5Cuc77c%20%5Cud3c9%5Cuade0%22%2C%22data%22%3A%5B35111.28571428572%2C35111.28571428572%2C35111.28571428572%2C35111.28571428572%2C35111.28571428572%2C35111.28571428572%2C35111.28571428572%5D%2C%22borderColor%22%3A%22%23cdd6f4%22%2C%22borderWidth%22%3A2%2C%22borderDash%22%3A%5B6%2C4%5D%2C%22pointRadius%22%3A0%2C%22fill%22%3Afalse%2C%22tension%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22responsive%22%3Atrue%2C%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A12%2C%22right%22%3A16%2C%22bottom%22%3A10%2C%22left%22%3A8%7D%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Atrue%2C%22position%22%3A%22top%22%2C%22align%22%3A%22end%22%2C%22labels%22%3A%7B%22color%22%3A%22%23cdd6f4%22%2C%22boxWidth%22%3A14%2C%22boxHeight%22%3A14%2C%22padding%22%3A12%2C%22font%22%3A%7B%22size%22%3A15%2C%22weight%22%3A%22500%22%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%5Cud65c%5Cuc131%5Cub3c4%20%5Cucd94%5Cuc774%20%287%5Cuc77c%29%20%5Cu00b7%20%5Cuc810%5Cuc120%3D7%5Cuc77c%20%5Cud3c9%5Cuade0%22%2C%22color%22%3A%22%23e4e4ef%22%2C%22font%22%3A%7B%22size%22%3A17%2C%22weight%22%3A%22600%22%7D%2C%22padding%22%3A%7B%22top%22%3A6%2C%22bottom%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A12%2C%22padding%22%3A6%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%2C%22border%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.08%29%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22padding%22%3A8%2C%22maxTicksLimit%22%3A6%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.06%29%22%7D%2C%22border%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%2C%22backgroundColor%22%3A%22%23181825%22%7D" alt="7일 추이"/></section>
+<section class="card"><img class="chart" src="https://quickchart.io/chart?v=4&w=1000&h=400&devicePixelRatio=3&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2208-01%20%28%5Cud1a0%29%22%2C%2208-02%20%28%5Cuc77c%29%22%2C%2208-03%20%28%5Cuc6d4%29%22%2C%2208-04%20%28%5Cud654%29%22%2C%2208-05%20%28%5Cuc218%29%22%2C%2208-06%20%28%5Cubaa9%29%22%2C%2208-07%20%28%5Cuae08%29%22%2C%2208-08%20%28%5Cud1a0%29%22%2C%2208-09%20%28%5Cuc77c%29%22%2C%2208-10%20%28%5Cuc6d4%29%22%2C%2208-11%20%28%5Cud654%29%22%2C%2208-12%20%28%5Cuc218%29%22%2C%2208-13%20%28%5Cubaa9%29%22%2C%2208-14%20%28%5Cuae08%29%22%2C%2208-15%20%28%5Cud1a0%29%22%2C%2208-16%20%28%5Cuc77c%29%22%2C%2208-17%20%28%5Cuc6d4%29%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%5Cuc0c1%5Cuc70420%22%2C%22data%22%3A%5B46835%2C34900%2C37100%2C34820%2C42700%2C29800%2C39800%2C48200%2C34800%2C26978%2C30500%2C29000%2C26978%2C30565%2C36736%2C43000%2C49000%5D%2C%22borderColor%22%3A%22%2389b4fa%22%2C%22backgroundColor%22%3A%22rgba%28137%2C180%2C250%2C0.16%29%22%2C%22borderWidth%22%3A3.5%2C%22pointRadius%22%3A%5B5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C5%2C8%5D%2C%22pointHoverRadius%22%3A9%2C%22pointBackgroundColor%22%3A%22%2389b4fa%22%2C%22pointBorderColor%22%3A%22%2311111b%22%2C%22pointBorderWidth%22%3A2%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%7D%2C%7B%22label%22%3A%22%5Cuae30%5Cuac04%20%5Cud3c9%5Cuade0%22%2C%22data%22%3A%5B36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%2C36571.294117647056%5D%2C%22borderColor%22%3A%22%23cdd6f4%22%2C%22borderWidth%22%3A2%2C%22borderDash%22%3A%5B6%2C4%5D%2C%22pointRadius%22%3A0%2C%22fill%22%3Afalse%2C%22tension%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22responsive%22%3Atrue%2C%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A12%2C%22right%22%3A16%2C%22bottom%22%3A10%2C%22left%22%3A8%7D%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Atrue%2C%22position%22%3A%22top%22%2C%22align%22%3A%22end%22%2C%22labels%22%3A%7B%22color%22%3A%22%23cdd6f4%22%2C%22boxWidth%22%3A14%2C%22boxHeight%22%3A14%2C%22padding%22%3A12%2C%22font%22%3A%7B%22size%22%3A15%2C%22weight%22%3A%22500%22%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%5Cud65c%5Cuc131%5Cub3c4%20%5Cucd94%5Cuc774%20%2808%5Cuc6d4%20%5Cu00b7%2017%5Cuc77c%29%20%5Cu00b7%20%5Cuc810%5Cuc120%3D%5Cuae30%5Cuac04%20%5Cud3c9%5Cuade0%22%2C%22color%22%3A%22%23e4e4ef%22%2C%22font%22%3A%7B%22size%22%3A17%2C%22weight%22%3A%22600%22%7D%2C%22padding%22%3A%7B%22top%22%3A6%2C%22bottom%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A6%2C%22padding%22%3A6%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%2C%22border%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.08%29%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22padding%22%3A8%2C%22maxTicksLimit%22%3A6%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.06%29%22%7D%2C%22border%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%2C%22backgroundColor%22%3A%22%23181825%22%7D" alt="월 추이"/></section>
+<div class="sl">DAILY CHANGE</div>
+<section class="card"><img class="chart" src="https://quickchart.io/chart?v=4&w=1000&h=360&devicePixelRatio=3&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2208-02%20%28%5Cuc77c%29%22%2C%2208-03%20%28%5Cuc6d4%29%22%2C%2208-04%20%28%5Cud654%29%22%2C%2208-05%20%28%5Cuc218%29%22%2C%2208-06%20%28%5Cubaa9%29%22%2C%2208-07%20%28%5Cuae08%29%22%2C%2208-08%20%28%5Cud1a0%29%22%2C%2208-09%20%28%5Cuc77c%29%22%2C%2208-10%20%28%5Cuc6d4%29%22%2C%2208-11%20%28%5Cud654%29%22%2C%2208-12%20%28%5Cuc218%29%22%2C%2208-13%20%28%5Cubaa9%29%22%2C%2208-14%20%28%5Cuae08%29%22%2C%2208-15%20%28%5Cud1a0%29%22%2C%2208-16%20%28%5Cuc77c%29%22%2C%2208-17%20%28%5Cuc6d4%29%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%5Cubcc0%5Cud654%5Cuc728%20%25%22%2C%22data%22%3A%5B-25.5%2C6.3%2C-6.1%2C22.6%2C-30.2%2C33.6%2C21.1%2C-27.8%2C-22.5%2C13.1%2C-4.9%2C-7.0%2C13.3%2C20.2%2C17.1%2C14.0%5D%2C%22backgroundColor%22%3A%5B%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%5D%2C%22borderWidth%22%3A0%2C%22borderRadius%22%3A4%7D%5D%7D%2C%22options%22%3A%7B%22responsive%22%3Atrue%2C%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A12%2C%22right%22%3A12%2C%22bottom%22%3A10%2C%22left%22%3A8%7D%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%5Cuc77c%5Cuac04%20%5Cubcc0%5Cud654%5Cuc728%20%28%25%29%22%2C%22color%22%3A%22%23e4e4ef%22%2C%22font%22%3A%7B%22size%22%3A17%2C%22weight%22%3A%22600%22%7D%2C%22padding%22%3A%7B%22top%22%3A6%2C%22bottom%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A6%2C%22padding%22%3A6%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22padding%22%3A8%2C%22maxTicksLimit%22%3A6%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.06%29%22%7D%2C%22border%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%2C%22backgroundColor%22%3A%22%23181825%22%7D" alt="일간 변화율"/></section>
+<div class="sl">COMPARISONS</div>
+<section class="card"><table>
+<tr><td>전일</td><td class="num">43,000</td>
+<td class="num up">+6,000 (+14.0%)</td></tr>
+<tr><td>7일 평균</td><td class="num">35,111</td>
+<td class="num up">+39.6%</td></tr>
+<tr><td>요일 대비 (지난주 월)</td><td class="num">26,978</td>
+<td class="num">+22,022 (+81.6%)</td></tr>
+<tr><td>주간 비교 (최근 7일 vs 직전 7일)</td><td class="num" colspan="2">36,728 → 35,111 · <span class="down">▼ 1,617 (-4.4%)</span></td></tr>
+<tr><td>7일 범위</td><td class="num" colspan="2">26,978 ~ 49,000</td></tr>
+<tr><td>관측 고점</td><td class="num">49,000</td>
+<td class="num">08-17 (월)</td></tr>
+<tr><td>관측 저점</td><td class="num">26,978</td>
+<td class="num">08-10 (월)</td></tr>
+</table></section>
+<div class="sl">RECENT RECORDS</div>
+<section class="card"><table><thead><tr><th>날짜</th><th>시각</th><th style="text-align:right">총합</th></tr></thead>
+<tbody><tr class="is-today"><td>08-17 (월)</td><td>22:04</td><td class="num">49,000</td></tr><tr class=""><td>08-16 (일)</td><td>22:04</td><td class="num">43,000</td></tr><tr class=""><td>08-15 (토)</td><td>22:03</td><td class="num">36,736</td></tr><tr class=""><td>08-14 (금)</td><td>22:03</td><td class="num">30,565</td></tr><tr class=""><td>08-13 (목)</td><td>22:04</td><td class="num">26,978</td></tr><tr class=""><td>08-12 (수)</td><td>22:03</td><td class="num">29,000</td></tr><tr class=""><td>08-11 (화)</td><td>—</td><td class="num">30,500</td></tr><tr class=""><td>08-10 (월)</td><td>—</td><td class="num">26,978</td></tr><tr class=""><td>08-09 (일)</td><td>22:03</td><td class="num">34,800</td></tr><tr class=""><td>08-08 (토)</td><td>22:03</td><td class="num">48,200</td></tr><tr class=""><td>08-07 (금)</td><td>22:03</td><td class="num">39,800</td></tr><tr class=""><td>08-06 (목)</td><td>22:03</td><td class="num">29,800</td></tr><tr class=""><td>08-05 (수)</td><td>22:03</td><td class="num">42,700</td></tr><tr class=""><td>08-04 (화)</td><td>22:03</td><td class="num">34,820</td></tr></tbody></table></section>
+<div class="sl">DATA STATUS</div>
+<section class="card">
+  <div class="stat-sub">데이터 관측 기간: <b style="color:var(--text)">17일</b> (2026-08-01 ~ 2026-08-17)</div>
+  <div class="stat-sub">로우데이터 저장 시각: 2026-08-17 22:04 KST · GitHub latest.json 커밋</div>
+  <div class="stat-sub">수집 상태: 정상 · 누락 없음(연속 17일)</div>
+  <table style="margin-top:12px"><thead><tr><th>분석</th><th>상태</th></tr></thead><tbody><tr><td>전일 비교</td><td><span class="st ok">사용 가능</span></td></tr><tr><td>7일 추이</td><td><span class="st ok">사용 가능</span></td></tr><tr><td>요일 비교</td><td><span class="st ok">사용 가능</span></td></tr><tr><td>14일 주간 비교</td><td><span class="st ok">사용 가능</span></td></tr><tr><td>30일 분석</td><td><span class="st warn">데이터 축적 중</span></td></tr><tr><td>활성도 지수</td><td><span class="st off">도입 전 (30일+ Beta)</span></td></tr><tr><td>90일 장기</td><td><span class="st warn">데이터 축적 중</span></td></tr></tbody></table>
+  <div class="stat-sub" style="margin-top:10px">활성도 지수: 0~29일 미도입 · 30일+ Beta · 60일+ 정식</div>
+</section>
+<div class="sl">METHODOLOGY</div>
+<section class="card method">
+지표는 Top20 캐릭터 채팅 수 합산값이며, 플랫폼 전체 활성도를 추정하기 위한 참고 지표입니다.
+개별 캐릭터 순위·점유율·급상승 분석은 포함하지 않습니다.
+실측하지 않은 전체 사용자 수 변화 등을 단정하지 않으며, 관측 가능한 상승·하락·평균 대비 위치·추세만 기술합니다.
+TODAY'S BRIEFING은 결론→근거→추세→보조 순, 최대 3~4문장, 중복·원인 추정 금지.
+</section>
+<footer>※ 상위 20개 캐릭터 채팅 수만 합산한 지표입니다. 플랫폼 전체 활성도와는 다를 수 있으니 대략적인 참고용으로만 봐 주세요.<br/>
+로우데이터 저장 2026-08-17 22:04 KST · GitHub latest.json</footer>
+</main></body></html>
