@@ -13,11 +13,16 @@ body{margin:0;font-family:Pretendard,"Apple SD Gothic Neo",system-ui,sans-serif;
   background:radial-gradient(1000px 500px at 0% -10%,rgba(137,180,250,.07),transparent 50%),var(--bg);
   color:var(--text);line-height:1.55}
 .page{max-width:1120px;margin:0 auto;padding:24px 16px 64px}
+
+.page-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:4px}
+.page-header-main{min-width:0;flex:1}
+.credit{color:var(--muted);text-decoration:none;font-weight:600;font-size:.9rem;white-space:nowrap;padding-top:2px;flex-shrink:0}
+.credit:hover{color:var(--accent)}
 h1{font-size:1.15rem;font-weight:700;margin:0 0 4px}
 .report-date{font-size:1.2rem;font-weight:700;margin:0 0 4px}
 .tag{color:var(--muted);font-size:.8rem;margin-bottom:16px}
 
-/* Layout: mobile 1-col stack; desktop main + sticky sidebar */
+/* Layout: mobile 1-col stack; desktop main + sidebar (not sticky — avoids covering content) */
 .report-layout{
   display:grid;
   grid-template-columns:minmax(0,1fr);
@@ -30,9 +35,8 @@ h1{font-size:1.15rem;font-weight:700;margin:0 0 4px}
 .block-brief{order:4}
 .block-idx{order:5}
 .block-charts{order:6}
-.block-daily{order:7}
-.block-cmp{order:8}
-.block-rec{order:9}
+.block-midrow{order:7}
+.block-rec{order:8}
 @media (min-width:1200px){
   .report-layout{
     grid-template-columns:minmax(0,1fr) var(--side);
@@ -42,8 +46,7 @@ h1{font-size:1.15rem;font-weight:700;margin:0 0 4px}
       "brief brief"
       "idx idx"
       "charts charts"
-      "daily daily"
-      "cmp cmp"
+      "midrow midrow"
       "rec rec";
     gap:14px 18px;
   }
@@ -52,10 +55,9 @@ h1{font-size:1.15rem;font-weight:700;margin:0 0 4px}
   .block-brief{grid-area:brief;order:unset}
   .block-idx{grid-area:idx;order:unset}
   .block-charts{grid-area:charts;order:unset}
-  .block-daily{grid-area:daily;order:unset}
-  .block-cmp{grid-area:cmp;order:unset}
+  .block-midrow{grid-area:midrow;order:unset}
   .block-rec{grid-area:rec;order:unset}
-  .side-col{grid-area:side;order:unset;position:sticky;top:16px}
+  .side-col{grid-area:side;order:unset}
 }
 
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
@@ -115,6 +117,12 @@ h1{font-size:1.15rem;font-weight:700;margin:0 0 4px}
 @media (min-width:1400px){
   .charts-stack{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 }
+/* DAILY CHANGE + COMPARISONS: stack mobile, 2-col desktop */
+.block-midrow{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+@media (min-width:1200px){
+  .block-midrow{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}
+}
+
 img.chart{width:100%;max-width:100%;height:auto;border-radius:12px;display:block;background:#181825}
 @media(max-width:560px){img.chart{min-height:200px}}
 @media(min-width:561px){img.chart{min-height:260px}}
@@ -151,9 +159,14 @@ footer.note{margin-top:18px;color:var(--muted);font-size:.76rem;line-height:1.55
 
 </style></head><body>
 <div class="page">
-  <h1>케이브덕 활성도 일일 보고</h1>
-  <div class="report-date">2026-08-17 (월) 22:04 KST</div>
-  <div class="tag">Top20 채팅 합산 · 플랫폼 활성도 참고 지표 · 관측 17일</div>
+  <div class="page-header">
+    <div class="page-header-main">
+      <h1>케이브덕 활성도 일일 보고</h1>
+      <div class="report-date">2026-08-17 (월) 22:04 KST</div>
+      <div class="tag">Top20 채팅 합산 · 플랫폼 활성도 참고 지표 · 관측 17일</div>
+    </div>
+    <a class="credit" href="https://caveduck.io/user/4Leaf" target="_blank" rel="noopener noreferrer">@4leaf</a>
+  </div>
 
   <div class="report-layout">
       <section class="hero block-today">
@@ -207,6 +220,7 @@ footer.note{margin-top:18px;color:var(--muted);font-size:.76rem;line-height:1.55
         </div>
       </div>
 
+      <div class="block-midrow">
       <div class="block-daily">
         <div class="sl">DAILY CHANGE</div>
         <section class="card"><img class="chart" src="https://quickchart.io/chart?v=4&w=1000&h=360&devicePixelRatio=3&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2208-02%20%28%5Cuc77c%29%22%2C%2208-03%20%28%5Cuc6d4%29%22%2C%2208-04%20%28%5Cud654%29%22%2C%2208-05%20%28%5Cuc218%29%22%2C%2208-06%20%28%5Cubaa9%29%22%2C%2208-07%20%28%5Cuae08%29%22%2C%2208-08%20%28%5Cud1a0%29%22%2C%2208-09%20%28%5Cuc77c%29%22%2C%2208-10%20%28%5Cuc6d4%29%22%2C%2208-11%20%28%5Cud654%29%22%2C%2208-12%20%28%5Cuc218%29%22%2C%2208-13%20%28%5Cubaa9%29%22%2C%2208-14%20%28%5Cuae08%29%22%2C%2208-15%20%28%5Cud1a0%29%22%2C%2208-16%20%28%5Cuc77c%29%22%2C%2208-17%20%28%5Cuc6d4%29%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%5Cubcc0%5Cud654%5Cuc728%20%25%22%2C%22data%22%3A%5B-25.5%2C6.3%2C-6.1%2C22.6%2C-30.2%2C33.6%2C21.1%2C-27.8%2C-22.5%2C13.1%2C-4.9%2C-7.0%2C13.3%2C20.2%2C17.1%2C14.0%5D%2C%22backgroundColor%22%3A%5B%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23f38ba8%22%2C%22%23f38ba8%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%2C%22%23a6e3a1%22%5D%2C%22borderWidth%22%3A0%2C%22borderRadius%22%3A4%7D%5D%7D%2C%22options%22%3A%7B%22responsive%22%3Atrue%2C%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A12%2C%22right%22%3A12%2C%22bottom%22%3A10%2C%22left%22%3A8%7D%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%5Cuc77c%5Cuac04%20%5Cubcc0%5Cud654%5Cuc728%20%28%25%29%22%2C%22color%22%3A%22%23e4e4ef%22%2C%22font%22%3A%7B%22size%22%3A17%2C%22weight%22%3A%22600%22%7D%2C%22padding%22%3A%7B%22top%22%3A6%2C%22bottom%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A6%2C%22padding%22%3A6%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22padding%22%3A8%2C%22maxTicksLimit%22%3A6%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.06%29%22%7D%2C%22border%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%2C%22backgroundColor%22%3A%22%23181825%22%7D" alt="일간 변화율"/></section>
@@ -229,6 +243,7 @@ footer.note{margin-top:18px;color:var(--muted);font-size:.76rem;line-height:1.55
           <tr><td>관측 저점</td><td class="num">26,978</td>
           <td class="num">08-10 (월)</td></tr>
         </table></section>
+      </div>
       </div>
 
       <div class="block-rec">
