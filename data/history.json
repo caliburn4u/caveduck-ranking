@@ -123,7 +123,14 @@
     "weekday": "일",
     "time_kst": "22:04",
     "source": "github",
-    "total_top20": 43000,
-    "time_source": "github_commit"
+    "total_top20": 43000
+  },
+  {
+    "date": "2026-08-17",
+    "weekday": "월",
+    "time_kst": "22:04",
+    "source": "github",
+    "total_top20": 49000,
+    "corrected": true
   }
 ]
