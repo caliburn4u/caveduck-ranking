@@ -47,7 +47,7 @@ h1{font-size:1.1rem;font-weight:700;margin:0 0 4px}
 .fill{position:absolute;inset:0 auto 0 0;width:100.00%;border-radius:999px;
   background:linear-gradient(90deg,rgba(137,180,250,.2),var(--accent))}
 .mk{position:absolute;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;
-  background:var(--accent);box-shadow:0 0 0 3px rgba(0,0,0,.35);left:100.00%}
+  background:var(--accent);box-shadow:0 0 0 3px rgba(0,0,0,.35);left:min(100%,max(0%,100.00%))}
 .labs{display:flex;justify-content:space-between;color:var(--muted);font-size:.75rem}
 .vol-row{display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;gap:8px}
 .vol-row .stat-val{font-size:.92rem;font-weight:700}
@@ -68,9 +68,6 @@ h1{font-size:1.1rem;font-weight:700;margin:0 0 4px}
 .brief .b-aux{color:var(--muted);font-size:.84rem;border-top:1px solid var(--line);padding-top:9px;margin-top:2px}
 
 .charts-stack{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
-@media(min-width:1400px){
-  .charts-stack{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
-}
 img.chart{width:100%;max-width:100%;height:auto;border-radius:12px;display:block;background:#181825}
 @media(max-width:560px){img.chart{min-height:180px}}
 @media(min-width:561px){img.chart{min-height:240px}}
@@ -147,17 +144,18 @@ footer.note{margin-top:16px;color:var(--muted);font-size:.74rem;line-height:1.5}
         <div class="stat-label">CURRENT POSITION · 관측 17일 범위</div>
         <div class="track"><div class="fill"></div><div class="mk"></div></div>
         <div class="labs"><span>26,978</span><span>49,000</span></div>
+        <div class="stat-sub">오늘 위치 100% · (오늘−최저)÷(최고−최저)</div>
         <div class="vol-row">
-          <div class="stat-label">변동성 (7일 상대 표준편차)</div>
+          <div class="stat-label">변동성 (7일 상대표준편차 CV)</div>
           <div class="stat-val">21.6% · 높음</div>
         </div>
         <div class="vol-track"><div class="vol-fill"></div></div>
-        <div class="stat-sub">최근 일별 활성도 변동폭이 큰 편입니다.</div>
+        <div class="stat-sub">게이지: CV 0~30%를 0~100%로 표시 · 최근 일별 활성도 변동폭이 큰 편입니다.</div>
       </section>
     </div>
     <aside class="card qs-card">
       <div class="sl" style="margin:0 0 4px">QUICK STATUS</div>
-      <div class="qs-item"><div class="qs-ico">🔥</div><div><div class="qs-t">매우 높음</div><div class="qs-k">현재 활성도 수준</div></div></div><div class="qs-item"><div class="qs-ico">📈</div><div><div class="qs-t">4일 연속 상승</div><div class="qs-k">단기 추세</div></div></div><div class="qs-item"><div class="qs-ico">➡️</div><div><div class="qs-t">횡보</div><div class="qs-k">주간 추세 · 최근 7일 기준</div></div></div><div class="qs-item"><div class="qs-ico">🏆</div><div><div class="qs-t">관측 최고</div><div class="qs-k">49,000</div></div></div><div class="qs-item"><div class="qs-ico">📈</div><div><div class="qs-t">큰 변화</div><div class="qs-k">변화 강도 · 전일 대비</div></div></div>
+      <div class="qs-item"><div class="qs-ico">🔥</div><div><div class="qs-t">매우 높음</div><div class="qs-k">현재 활성도 수준</div></div></div><div class="qs-item"><div class="qs-ico">📈</div><div><div class="qs-t">4일 연속 상승</div><div class="qs-k">단기 추세</div></div></div><div class="qs-item"><div class="qs-ico">➡️</div><div><div class="qs-t">횡보</div><div class="qs-k">주간 추세 · 최근 7일 기준</div></div></div><div class="qs-item"><div class="qs-ico">🏆</div><div><div class="qs-t">관측 최고</div><div class="qs-k">49,000</div></div></div>
     </aside>
   </div>
 
