@@ -132,5 +132,13 @@
     "source": "github",
     "total_top20": 49000,
     "corrected": true
+  },
+  {
+    "date": "2026-08-18",
+    "weekday": "화",
+    "time_kst": "22:04",
+    "source": "github",
+    "total_top20": 41219,
+    "time_source": "github_commit"
   }
 ]
