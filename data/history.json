@@ -152,7 +152,15 @@
     "weekday": "목",
     "time_kst": "22:04",
     "source": "github",
-    "total_top20": 38700,
-    "time_source": "github_commit"
+    "total_top20": 38700
+  },
+  {
+    "date": "2026-08-21",
+    "weekday": "금",
+    "time_kst": "22:04",
+    "source": "github",
+    "total_top20": 42600,
+    "time_source": "github_commit",
+    "corrected": true
   }
 ]
