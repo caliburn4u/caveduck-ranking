@@ -98,6 +98,9 @@ th{text-align:left;color:var(--muted);font-weight:500;padding:7px 6px;border-bot
 td{padding:8px 6px;border-bottom:1px solid var(--line)}
 td.num{text-align:right;font-weight:600}
 tr.is-today td{color:var(--accent)}
+tbody tr{transition:background .15s ease}
+tbody tr:hover td{background:rgba(137,180,250,.08)}
+tbody tr.is-today:hover td{background:rgba(137,180,250,.12)}
 @media(max-width:560px){
   .col-time, th.col-time{display:none}
   .page{padding:16px 12px 48px}
