@@ -236,5 +236,14 @@
     "source": "github",
     "total_top20": 55300,
     "time_source": "github_commit"
+  },
+  {
+    "date": "2026-08-31",
+    "weekday": "월",
+    "time_kst": "22:04",
+    "source": "github",
+    "total_top20": 60500,
+    "time_source": "github_commit",
+    "corrected": true
   }
 ]
