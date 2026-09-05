@@ -279,5 +279,14 @@
     "total_top20": 31733,
     "corrected": true,
     "time_source": "github_commit"
+  },
+  {
+    "date": "2026-09-05",
+    "weekday": "토",
+    "time_kst": "22:04",
+    "source": "github",
+    "total_top20": 38089,
+    "time_source": "github_commit",
+    "corrected": true
   }
 ]
