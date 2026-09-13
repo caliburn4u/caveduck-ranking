@@ -343,5 +343,14 @@
     "time_kst": "22:03",
     "source": "github",
     "total_top20": 45235
+  },
+  {
+    "date": "2026-09-13",
+    "weekday": "일",
+    "time_kst": "22:02",
+    "source": "github",
+    "total_top20": 46400,
+    "time_source": "github_commit",
+    "corrected": true
   }
 ]
