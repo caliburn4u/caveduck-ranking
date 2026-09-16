@@ -369,5 +369,12 @@
     "source": "github",
     "total_top20": 41200,
     "time_source": "github_commit"
+  },
+  {
+    "date": "2026-09-16",
+    "weekday": "수",
+    "time_kst": "22:03",
+    "source": "github",
+    "total_top20": 35438
   }
 ]
