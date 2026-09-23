@@ -421,9 +421,15 @@
     "weekday": "화",
     "time_kst": "22:02",
     "source": "github",
-    "total_top20": 42400,
-    "top1": 5000,
-    "top10": 1900,
-    "top20_score": null
+    "total_top20": 42400
+  },
+  {
+    "date": "2026-09-23",
+    "weekday": "수",
+    "time_kst": "22:02",
+    "source": "github",
+    "total_top20": 39843,
+    "corrected": true,
+    "stored_total": 40600
   }
 ]
