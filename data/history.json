@@ -440,5 +440,13 @@
     "total_top20": 35131,
     "corrected": true,
     "stored_total_raw": 47700
+  },
+  {
+    "date": "2026-09-25",
+    "weekday": "금",
+    "time_kst": "22:02",
+    "source": "github",
+    "total_top20": 46900,
+    "corrected": true
   }
 ]
