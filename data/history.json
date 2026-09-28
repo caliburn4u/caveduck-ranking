@@ -465,5 +465,14 @@
     "total_top20": 50000,
     "corrected": true,
     "stored_total": 48500
+  },
+  {
+    "date": "2026-09-28",
+    "weekday": "월",
+    "time_kst": "22:03",
+    "source": "github",
+    "total_top20": 54400,
+    "corrected": true,
+    "stored_total": 50500
   }
 ]
