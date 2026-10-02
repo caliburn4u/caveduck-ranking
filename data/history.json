@@ -506,6 +506,8 @@
     "source": "box-browser-nsfw-fix",
     "total_top20": 44100,
     "top1": 5300,
-    "top10": 1700
+    "top10": 1700,
+    "corrected": true,
+    "correction_note": "Skyvern latest.json collected with NSFW OFF; replaced by box-browser scrape after NSFW ON + 남성향 restore"
   }
 ]
