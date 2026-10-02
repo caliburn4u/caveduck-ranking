@@ -501,11 +501,11 @@
   {
     "date": "2026-10-02",
     "weekday": "금",
-    "time_kst": "22:02",
-    "time_source": "github_commit",
-    "source": "github",
-    "total_top20": 5418,
-    "top1": 1600,
-    "top10": 195
+    "time_kst": "22:19",
+    "time_source": "collected",
+    "source": "box-browser-nsfw-fix",
+    "total_top20": 44100,
+    "top1": 5300,
+    "top10": 1700
   }
 ]
