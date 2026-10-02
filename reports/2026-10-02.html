@@ -155,6 +155,19 @@ details.fold summary::-webkit-details-marker{display:none}
 .seg-note{margin:0 0 4px;padding:9px 12px;border-left:2px solid var(--blue);background:rgba(137,180,250,.05);border-radius:8px;color:#bac2de;font-size:.76rem}
 .seg-missing{padding:28px 16px;text-align:center;color:var(--muted)}.seg-missing b{display:block;color:var(--down);font-size:1.05rem;margin-bottom:6px}
 @media(max-width:560px){.page-header{flex-wrap:wrap;gap:8px}.page-header>div:first-child{flex:1 1 100%;min-width:0}.title-row{flex-direction:column;align-items:flex-start;gap:10px}.seg-labels{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.seg-label{min-width:0;padding:9px 6px;font-size:15px}}
+/* sticky header (2026-10-02~): keep title/date/tag/credit/segment tabs pinned while scrolling */
+:root{--hdr-h:120px}
+html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
+.sl,section,.seg-panel,[id]{scroll-margin-top:calc(var(--hdr-h) + 8px)}
+.page-header{position:sticky;top:0;z-index:100;background:var(--bg);margin:0 -20px 14px;padding:12px 20px 10px;align-items:center;border-bottom:1px solid rgba(255,255,255,.10);box-shadow:0 8px 18px -10px rgba(0,0,0,.75)}
+.page-header .report-date{margin-bottom:2px}
+@supports (animation-timeline:scroll()){
+.page-header{animation:hdr-shrink linear both;animation-timeline:scroll(root);animation-range:0 140px}
+.page-header .tag{animation:tag-shrink linear both;animation-timeline:scroll(root);animation-range:0 140px}
+@keyframes hdr-shrink{to{padding-top:7px;padding-bottom:6px}}
+@keyframes tag-shrink{to{font-size:.68rem}}
+}
+@media(max-width:560px){:root{--hdr-h:155px}.page-header{margin:0 -12px 12px;padding:8px 12px 8px;gap:4px}.page-header h1{font-size:1rem}.title-row{gap:6px}.page-header .report-date{font-size:1.02rem;margin-bottom:0}.page-header .tag{font-size:.7rem;line-height:1.35}.page-header .credit{font-size:.76rem}.seg-label{padding:7px 6px}}
 </style></head><body>
 <div class="page">
 <input class="seg-radio" type="radio" name="seg" id="seg-all" checked/><input class="seg-radio" type="radio" name="seg" id="seg-male"/><input class="seg-radio" type="radio" name="seg" id="seg-female"/>
