@@ -514,10 +514,7 @@
     "date": "2026-10-03",
     "weekday": "토",
     "time_kst": "22:02",
-    "time_source": "github_commit",
     "source": "github",
-    "total_top20": 43800,
-    "top1": 5600,
-    "top10": 1800
+    "total_top20": 43800
   }
 ]
