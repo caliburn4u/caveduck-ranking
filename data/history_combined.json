@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2026-10-01",
+    "weekday": "목",
+    "time_kst": "22:31",
+    "time_source": "derived",
+    "source": "derived:male+female",
+    "total_top20": 94531,
+    "top1": 8500,
+    "top10": 3300,
+    "male_total": 51593,
+    "female_total": 53038,
+    "overlap": 2,
+    "overlap_chats": 10100,
+    "count": 38
+  },
+  {
+    "date": "2026-10-02",
+    "weekday": "금",
+    "time_kst": "22:19",
+    "time_source": "derived",
+    "source": "derived:male+female",
+    "total_top20": 101725,
+    "top1": 10300,
+    "top10": 3600,
+    "male_total": 44100,
+    "female_total": 62825,
+    "overlap": 1,
+    "overlap_chats": 5200,
+    "count": 39
+  },
+  {
+    "date": "2026-10-03",
+    "weekday": "토",
+    "time_kst": "22:07",
+    "time_source": "derived",
+    "source": "derived:male+female",
+    "total_top20": 112500,
+    "top1": 13200,
+    "top10": 3700,
+    "male_total": 43800,
+    "female_total": 70600,
+    "overlap": 1,
+    "overlap_chats": 1900,
+    "count": 39
+  },
+  {
+    "date": "2026-10-04",
+    "weekday": "일",
+    "time_kst": "22:14",
+    "time_source": "derived",
+    "source": "derived:male+female",
+    "total_top20": 116110,
+    "top1": 13800,
+    "top10": 3800,
+    "male_total": 43310,
+    "female_total": 80100,
+    "overlap": 1,
+    "overlap_chats": 7300,
+    "count": 39
+  }
+]
