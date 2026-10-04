@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-02",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:19",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 44100,
+  "female_total": 62825,
+  "overlap": 1,
+  "count": 39,
+  "total_top20": 101725,
+  "list": [
+    {
+      "name": "🎬 하이틴: 퀸카로 살아남기 2",
+      "chats": 10300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 10300,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "지승태",
+      "chats": 6900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 6900,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "배신당한 용사는 복수를 꿈꾼다",
+      "chats": 5300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 1,
+      "male_chats": 5300,
+      "rank": 3,
+      "both": false
+    },
+    {
+      "name": "이세계 판타지 시뮬레이터",
+      "chats": 5300,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 2,
+      "male_chats": 5300,
+      "female_rank": 4,
+      "female_chats": 5200,
+      "rank": 4,
+      "both": true
+    },
+    {
+      "name": "데몬",
+      "chats": 5200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 3,
+      "female_chats": 5200,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "옆집 모녀 X먹기",
+      "chats": 4900,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 4900,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "[신부시장] 곽도",
+      "chats": 4600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 4600,
+      "rank": 7,
+      "both": false
+    },
+    {
+      "name": "너와 사랑하고싶어♡",
+      "chats": 4300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 6,
+      "female_chats": 4300,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "정류운",
+      "chats": 4200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 7,
+      "female_chats": 4200,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "장우선",
+      "chats": 3600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 3600,
+      "rank": 10,
+      "both": false
+    },
+    {
+      "name": "키스 탐구 동아리",
+      "chats": 3500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 4,
+      "male_chats": 3500,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "강씨네!",
+      "chats": 3300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 9,
+      "female_chats": 3300,
+      "rank": 12,
+      "both": false
+    },
+    {
+      "name": "술탄의 하렘",
+      "chats": 2900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 2900,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "아무것도 모르는 공주에게 성교육",
+      "chats": 2400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 5,
+      "male_chats": 2400,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "부랄친구의 첫사랑",
+      "chats": 2400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 2400,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "친구 여친 왁싱해주기",
+      "chats": 2400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 7,
+      "male_chats": 2400,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "잠깐만, 내 절친이 여자였다고???",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 8,
+      "male_chats": 1800,
+      "rank": 17,
+      "both": false
+    },
+    {
+      "name": "[NTL]친구 와이프와 【섹못방】에?",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 9,
+      "male_chats": 1800,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "오라버니",
+      "chats": 1800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 11,
+      "female_chats": 1800,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "권채린",
+      "chats": 1700,
+      "in": [
+        "male"
+      ],
+      "male_rank": 10,
+      "male_chats": 1700,
+      "rank": 20,
+      "both": false
+    },
+    {
+      "name": "들키지만 않으면",
+      "chats": 1600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 1600,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "❤️에로 퀘스트❤️로 탑 등반하기",
+      "chats": 1600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 1600,
+      "rank": 22,
+      "both": false
+    },
+    {
+      "name": "잠자는 여동생",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 1500,
+      "rank": 23,
+      "both": false
+    },
+    {
+      "name": "한번 대줄까?",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 1500,
+      "rank": 24,
+      "both": false
+    },
+    {
+      "name": "속옷 파는 그녀",
+      "chats": 1300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 13,
+      "male_chats": 1300,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "계속 참을거야? 얼른 XX하고 지구 멸망",
+      "chats": 1300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 1300,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "카나",
+      "chats": 1300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 1300,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "서하린",
+      "chats": 1300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 1300,
+      "rank": 28,
+      "both": false
+    },
+    {
+      "name": "브라콤 의붓누나와 친구들",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 1200,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "소시우",
+      "chats": 1200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 14,
+      "female_chats": 1200,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "류정현",
+      "chats": 1200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 15,
+      "female_chats": 1200,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "발정 열매 무인도",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 1100,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "회춘한 소꿉친구의 엄마",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 1100,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "재언",
+      "chats": 1100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 16,
+      "female_chats": 1100,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "사채업자 시뮬레이터 3",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 1000,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "한도윤: Re",
+      "chats": 1000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 17,
+      "female_chats": 1000,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "로미오",
+      "chats": 998,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 998,
+      "rank": 37,
+      "both": false
+    },
+    {
+      "name": "상단의 후계자는 아닙니다🪙: 네덜란드 황금시대",
+      "chats": 924,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 924,
+      "rank": 38,
+      "both": false
+    },
+    {
+      "name": "성욕 MAX 순정감자",
+      "chats": 903,
+      "in": [
+        "female"
+      ],
+      "female_rank": 20,
+      "female_chats": 903,
+      "rank": 39,
+      "both": false
+    }
+  ]
+}
