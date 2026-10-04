@@ -180,8 +180,12 @@ details.fold summary::-webkit-details-marker{display:none}
 .seg-tip::before{content:"";position:absolute;top:-6px;left:50%;margin-left:-5px;border:5px solid transparent;border-top:0;border-bottom:6px solid color-mix(in srgb,var(--sc) 65%,#11111b)}
 .seg-label:first-child .seg-tip{left:0;transform:none}.seg-label:first-child .seg-tip::before{left:22px}
 .seg-label:last-child .seg-tip{left:auto;right:0;transform:none}.seg-label:last-child .seg-tip::before{left:auto;right:17px}
-.seg-label:hover .seg-tip,.seg-label.tip-on .seg-tip,
+/* tips-hover-only-20261004e: tooltips only on hover-capable fine pointers; none on touch/mobile (info line covers it) */
+@media (hover:hover) and (pointer:fine){
+.seg-label:hover .seg-tip,
 #seg-all:focus-visible~.page-header .seg-label[for=seg-all] .seg-tip,#seg-combined:focus-visible~.page-header .seg-label[for=seg-combined] .seg-tip,#seg-male:focus-visible~.page-header .seg-label[for=seg-male] .seg-tip,#seg-female:focus-visible~.page-header .seg-label[for=seg-female] .seg-tip{visibility:visible;opacity:1}
+}
+.no-tips .seg-tip{display:none!important}
 .seg-missing{padding:28px 16px;text-align:center;color:var(--muted)}.seg-missing b{display:block;color:var(--down);font-size:1.05rem;margin-bottom:6px}
 @media(max-width:560px){.page-header{flex-wrap:wrap;gap:8px}.page-header>div:first-child{flex:1 1 100%;min-width:0}.title-row{flex-direction:column;align-items:flex-start;gap:10px}.seg-labels{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.seg-label{min-width:0;padding:9px 4px;font-size:14px;letter-spacing:-.03em}}
 /* collapsible sections (2026-10-02~): details.sec > summary.sl, all open by default */
@@ -438,12 +442,7 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
   var segs=document.querySelectorAll(".seg-radio");
   var syncTabs=function(){segs.forEach(function(r){var l=document.getElementById("tab-"+r.id.slice(4)); if(l) l.setAttribute("aria-selected", r.checked?"true":"false");});};
   segs.forEach(function(r){r.addEventListener("change",syncTabs);}); syncTabs();
-  document.querySelectorAll(".seg-label").forEach(function(l){
-    var t; l.addEventListener("touchstart",function(){
-      document.querySelectorAll(".seg-label.tip-on").forEach(function(o){o.classList.remove("tip-on");});
-      l.classList.add("tip-on"); clearTimeout(t); t=setTimeout(function(){l.classList.remove("tip-on");},2200);
-    },{passive:true});
-  });
+  if(!(window.matchMedia&&window.matchMedia("(hover:hover) and (pointer:fine)").matches)) document.documentElement.classList.add("no-tips");
   document.querySelectorAll("[data-sec-all]").forEach(function(b){
     b.addEventListener("click",function(){
       var open=b.dataset.secAll==="open"; sync=true;
