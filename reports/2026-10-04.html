@@ -143,18 +143,30 @@ details.fold summary::-webkit-details-marker{display:none}
 .seg-labels{display:inline-flex;flex-wrap:wrap;gap:8px}
 .seg-label{--sc:#8b5cf6;--sl:#cba6f7;--st:rgba(139,92,246,.14);display:inline-flex;align-items:center;justify-content:center;min-width:84px;padding:8px 20px;border-radius:999px;border:1.5px solid color-mix(in srgb,var(--sc) 60%,transparent);background:rgba(255,255,255,.02);color:var(--sl);font-size:15.5px;font-weight:800;letter-spacing:-.01em;line-height:1.2;cursor:pointer;user-select:none;white-space:nowrap;transition:background .15s,color .15s,border-color .15s,box-shadow .15s,transform .12s}
 .seg-label[for=seg-all]{--sc:#8b5cf6;--sl:#cba6f7;--st:rgba(139,92,246,.16)}
+.seg-label[for=seg-combined]{--sc:#14b8a6;--sl:#7ee0d2;--st:rgba(20,184,166,.16)}
 .seg-label[for=seg-male]{--sc:#3b82f6;--sl:#89b4fa;--st:rgba(59,130,246,.16)}
 .seg-label[for=seg-female]{--sc:#e0569b;--sl:#f5a3cf;--st:rgba(224,86,155,.16)}
 .seg-label:hover{background:var(--st);border-color:var(--sc);color:#fff;transform:translateY(-1px)}
 .seg-panel,.segv{display:none}
-#seg-all:checked~.seg-panel.sp-all,#seg-male:checked~.seg-panel.sp-male,#seg-female:checked~.seg-panel.sp-female{display:block}
-#seg-all:checked~.page-header .segv.sv-all,#seg-male:checked~.page-header .segv.sv-male,#seg-female:checked~.page-header .segv.sv-female,
-#seg-all:checked~footer .segv.sv-all,#seg-male:checked~footer .segv.sv-male,#seg-female:checked~footer .segv.sv-female{display:inline}
-#seg-all:checked~.page-header .seg-label[for=seg-all],#seg-male:checked~.page-header .seg-label[for=seg-male],#seg-female:checked~.page-header .seg-label[for=seg-female]{background:var(--sc);border-color:var(--sc);color:#fff;box-shadow:0 4px 14px color-mix(in srgb,var(--sc) 45%,transparent);transform:none}
-#seg-all:focus-visible~.page-header .seg-label[for=seg-all],#seg-male:focus-visible~.page-header .seg-label[for=seg-male],#seg-female:focus-visible~.page-header .seg-label[for=seg-female]{outline:2px solid var(--sl);outline-offset:2px}
-.seg-note{margin:0 0 4px;padding:9px 12px;border-left:2px solid var(--blue);background:rgba(137,180,250,.05);border-radius:8px;color:#bac2de;font-size:.76rem}
+#seg-all:checked~.seg-panel.sp-all,#seg-combined:checked~.seg-panel.sp-combined,#seg-male:checked~.seg-panel.sp-male,#seg-female:checked~.seg-panel.sp-female{display:block}
+#seg-all:checked~.page-header .segv.sv-all,#seg-combined:checked~.page-header .segv.sv-combined,#seg-male:checked~.page-header .segv.sv-male,#seg-female:checked~.page-header .segv.sv-female,
+#seg-all:checked~footer .segv.sv-all,#seg-combined:checked~footer .segv.sv-combined,#seg-male:checked~footer .segv.sv-male,#seg-female:checked~footer .segv.sv-female{display:inline}
+#seg-all:checked~.page-header .seg-label[for=seg-all],#seg-combined:checked~.page-header .seg-label[for=seg-combined],#seg-male:checked~.page-header .seg-label[for=seg-male],#seg-female:checked~.page-header .seg-label[for=seg-female]{background:var(--sc);border-color:var(--sc);color:#fff;box-shadow:0 4px 14px color-mix(in srgb,var(--sc) 45%,transparent);transform:none}
+#seg-all:focus-visible~.page-header .seg-label[for=seg-all],#seg-combined:focus-visible~.page-header .seg-label[for=seg-combined],#seg-male:focus-visible~.page-header .seg-label[for=seg-male],#seg-female:focus-visible~.page-header .seg-label[for=seg-female]{outline:2px solid var(--sl);outline-offset:2px}
+.sp-all{--sc:#8b5cf6;--sl:#cba6f7}.sp-combined{--sc:#14b8a6;--sl:#7ee0d2}.sp-male{--sc:#3b82f6;--sl:#89b4fa}.sp-female{--sc:#e0569b;--sl:#f5a3cf}
+.seg-note{margin:0 0 4px;padding:7px 12px;border-left:3px solid var(--sc,var(--blue));background:color-mix(in srgb,var(--sc,#89b4fa) 8%,transparent);border-radius:8px;color:#bac2de;font-size:.76rem;line-height:1.45}
+.seg-note .seg-info{color:#e4e4ef;font-weight:700;font-size:.8rem}.seg-note .seg-info::before{content:"ⓘ ";color:var(--sl,var(--blue))}
+.seg-note .seg-meta{display:block;color:var(--muted);font-size:.68rem;margin-top:1px}
+/* segment tab tooltips (2026-10-04~): custom, instant (no delay), hover + keyboard focus */
+.seg-label{position:relative}
+.seg-tip{position:absolute;top:calc(100% + 9px);left:50%;transform:translateX(-50%);z-index:130;width:max-content;max-width:min(340px,86vw);padding:7px 11px;word-break:keep-all;overflow-wrap:break-word;border-radius:9px;background:#11111b;border:1px solid color-mix(in srgb,var(--sc) 65%,transparent);color:#e4e4ef;font-size:12px;font-weight:600;letter-spacing:0;line-height:1.45;white-space:normal;text-align:left;box-shadow:0 8px 22px rgba(0,0,0,.6);visibility:hidden;opacity:0;pointer-events:none;transition:none}
+.seg-tip::before{content:"";position:absolute;top:-6px;left:50%;margin-left:-5px;border:5px solid transparent;border-top:0;border-bottom:6px solid color-mix(in srgb,var(--sc) 65%,#11111b)}
+.seg-label:first-child .seg-tip{left:0;transform:none}.seg-label:first-child .seg-tip::before{left:22px}
+.seg-label:last-child .seg-tip{left:auto;right:0;transform:none}.seg-label:last-child .seg-tip::before{left:auto;right:17px}
+.seg-label:hover .seg-tip,.seg-label.tip-on .seg-tip,
+#seg-all:focus-visible~.page-header .seg-label[for=seg-all] .seg-tip,#seg-combined:focus-visible~.page-header .seg-label[for=seg-combined] .seg-tip,#seg-male:focus-visible~.page-header .seg-label[for=seg-male] .seg-tip,#seg-female:focus-visible~.page-header .seg-label[for=seg-female] .seg-tip{visibility:visible;opacity:1}
 .seg-missing{padding:28px 16px;text-align:center;color:var(--muted)}.seg-missing b{display:block;color:var(--down);font-size:1.05rem;margin-bottom:6px}
-@media(max-width:560px){.page-header{flex-wrap:wrap;gap:8px}.page-header>div:first-child{flex:1 1 100%;min-width:0}.title-row{flex-direction:column;align-items:flex-start;gap:10px}.seg-labels{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.seg-label{min-width:0;padding:9px 6px;font-size:15px}}
+@media(max-width:560px){.page-header{flex-wrap:wrap;gap:8px}.page-header>div:first-child{flex:1 1 100%;min-width:0}.title-row{flex-direction:column;align-items:flex-start;gap:10px}.seg-labels{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.seg-label{min-width:0;padding:9px 4px;font-size:14px;letter-spacing:-.03em}}
 /* collapsible sections (2026-10-02~): details.sec > summary.sl, all open by default */
 details.sec{margin:0}
 details.sec>summary.sl{display:flex;align-items:center;gap:6px;cursor:pointer;list-style:none;user-select:none;border-radius:6px;padding:3px 4px;margin-left:-2px;transition:color .15s,background .15s}
@@ -191,19 +203,19 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
 @media(max-width:560px){:root{--hdr-h:155px}.page-header{margin:0 -12px 12px;padding:8px 12px 8px;gap:4px}.page-header h1{font-size:1rem}.title-row{gap:6px}.page-header .report-date{font-size:1.02rem;margin-bottom:0}.page-header .tag{font-size:.7rem;line-height:1.35}.page-header .credit{font-size:.76rem}.seg-label{padding:7px 6px}}
 </style></head><body>
 <div class="page">
-<input class="seg-radio" type="radio" name="seg" id="seg-all" checked/><input class="seg-radio" type="radio" name="seg" id="seg-male"/><input class="seg-radio" type="radio" name="seg" id="seg-female"/>
+<input class="seg-radio" type="radio" name="seg" id="seg-all" checked aria-describedby="tip-all"/><input class="seg-radio" type="radio" name="seg" id="seg-combined" aria-describedby="tip-combined"/><input class="seg-radio" type="radio" name="seg" id="seg-male" aria-describedby="tip-male"/><input class="seg-radio" type="radio" name="seg" id="seg-female" aria-describedby="tip-female"/>
 <header class="page-header">
   <div>
-    <div class="title-row"><h1>케이브덕 활성도 일일 보고</h1><div class="seg-labels" role="tablist"><label class="seg-label" for="seg-all">종합</label><label class="seg-label" for="seg-male">남성향</label><label class="seg-label" for="seg-female">여성향</label></div></div>
-    <div class="report-date">2026-10-04 (일) <span class="segv sv-all">22:14</span><span class="segv sv-male">22:02</span><span class="segv sv-female">22:14</span> KST</div>
-    <div class="tag">Top20 채팅 합산 · 플랫폼 활성도 참고 지표 · 관측 <span class="segv sv-all">4</span><span class="segv sv-male">65</span><span class="segv sv-female">4</span>일</div>
+    <div class="title-row"><h1>케이브덕 활성도 일일 보고</h1><div class="seg-labels" role="tablist"><label class="seg-label" for="seg-all">전체 랭킹<span class="seg-tip" id="tip-all" role="tooltip" aria-hidden="true">개인 맞춤 설정 '전체'로 본 1일 인기 Top20 대화수 합</span></label><label class="seg-label" for="seg-combined">남여합산<span class="seg-tip" id="tip-combined" role="tooltip" aria-hidden="true">남성향 Top20 + 여성향 Top20 합 (양쪽에 다 뜬 캐릭터는 한 번만)</span></label><label class="seg-label" for="seg-male">남성향<span class="seg-tip" id="tip-male" role="tooltip" aria-hidden="true">개인 맞춤 설정 '남성향'으로 본 1일 인기 Top20 대화수 합</span></label><label class="seg-label" for="seg-female">여성향<span class="seg-tip" id="tip-female" role="tooltip" aria-hidden="true">개인 맞춤 설정 '여성향'으로 본 1일 인기 Top20 대화수 합</span></label></div></div>
+    <div class="report-date">2026-10-04 (일) <span class="segv sv-all">22:14</span><span class="segv sv-combined">22:14</span><span class="segv sv-male">22:02</span><span class="segv sv-female">22:14</span> KST</div>
+    <div class="tag">Top20 채팅 합산 · 플랫폼 활성도 참고 지표 · 관측 <span class="segv sv-all">4</span><span class="segv sv-combined">4</span><span class="segv sv-male">65</span><span class="segv sv-female">4</span>일</div>
   </div>
   <div class="hdr-side">
     <a class="credit" href="https://caveduck.io/ko/user/MidnightLoops" target="_blank" rel="noopener">@MidnightLoops (4leaf)</a>
     <span class="sec-ctl"><button type="button" data-sec-all="close">모두 접기</button><button type="button" data-sec-all="open">모두 펴기</button></span>
   </div>
 </header>
-<div class="seg-panel sp-all" style="--accent:#a6e3a1;--pos:100.00%;--vg:27.8%"><div class="seg-note">종합·여성향 집계는 2026-10-01부터 시작 · caveduck.io 1일 인기 랭킹(NSFW 포함), 선호 캐릭터 「전체」 Top20 · 수집 22:14 KST</div><details class="sec" open data-sec="today-at-a-glance"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY AT A GLANCE</summary><div class="sec-body"><div class="glance-grid">
+<div class="seg-panel sp-all" style="--accent:#a6e3a1;--pos:100.00%;--vg:27.8%"><div class="seg-note"><span class="seg-info">사이트에서 '전체'로 설정했을 때 실제로 뜨는 Top20 기준이에요. 남성향과 여성향을 더한 값이 아니에요.</span><span class="seg-meta">2026-10-01부터 집계 · 수집 22:14 KST</span></div><details class="sec" open data-sec="today-at-a-glance"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY AT A GLANCE</summary><div class="sec-body"><div class="glance-grid">
   <section class="hero">
     <div class="hero-label">TODAY</div>
     <div class="hero-main"><div class="hero-num">87,500</div><div class="hero-unit"></div></div>
@@ -268,7 +280,72 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
 <p><b>기간 탭</b><br/>추세·요일 패턴·히트맵은 30/60/90일(요일 4/8/12주) 탭 제공. 기간 일수가 부족한 탭은 「데이터 누적 중」으로 비활성.</p>
 <p><b>주의</b><br/>플랫폼 전체 공식 트래픽이 아닌 참고 지표.</p>
 </div></details></section></div></details>
-</div><div class="seg-panel sp-male" style="--accent:#f38ba8;--pos:48.72%;--vg:32.3%"><details class="sec" open data-sec="today-at-a-glance"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY AT A GLANCE</summary><div class="sec-body"><div class="glance-grid">
+</div><div class="seg-panel sp-combined" style="--accent:#a6e3a1;--pos:100.00%;--vg:26.9%"><div class="seg-note"><span class="seg-info">남성향 Top20과 여성향 Top20을 더한 값이에요. 양쪽에 다 뜬 캐릭터는 한 번만 셌어요.</span><span class="seg-meta">2026-10-01부터 집계 · 남성향 43,310 + 여성향 80,100 − 겹친 1개 캐릭터 중복분 7,300 = 116,110 (39개 캐릭터)</span></div><details class="sec" open data-sec="today-at-a-glance"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY AT A GLANCE</summary><div class="sec-body"><div class="glance-grid">
+  <section class="hero">
+    <div class="hero-label">TODAY</div>
+    <div class="hero-main"><div class="hero-num">116,110</div><div class="hero-unit"></div></div>
+    <div class="hero-status">고활성 · 주간 상승</div>
+    <div class="hero-metrics">
+      <div class="hero-metric"><div class="k">TODAY</div><div class="v">116,110</div></div>
+      <div class="hero-metric"><div class="k">7D AVG</div><div class="v">106,216</div></div>
+      <div class="hero-metric"><div class="k">PEAK</div><div class="v">116,110</div></div>
+    </div>
+  </section>
+  <section class="card baseline-card">
+    <div class="baseline-head"><div class="baseline-title">TODAY VS BASELINE</div>
+    <div class="baseline-sub">어제 · 7일 · 같은 요일 · 30일</div></div>
+    <div class="baseline-list"><div class="baseline-row"><div class="baseline-k">어제 대비</div><div class="baseline-right"><div class="baseline-v up">▲ +3.2%</div><div class="baseline-detail">+3,610</div></div></div><div class="baseline-row"><div class="baseline-k">최근 7일 평균</div><div class="baseline-right"><div class="baseline-v up">▲ +9.3%</div><div class="baseline-detail">평균 106,216</div></div></div></div>
+  </section>
+  <section class="card signals-card">
+    <div class="signals-head">QUICK STATUS · SIGNALS</div>
+    <div class="sig-stack"><div class="qs-item"><div class="qs-ico">🔥</div><div><div class="qs-t">매우 높음</div><div class="qs-k">현재 활성도 수준</div></div></div><div class="qs-item"><div class="qs-ico">📈</div><div><div class="qs-t">3일 연속 상승</div><div class="qs-k">3일 연속 상승</div></div></div><div class="qs-item"><div class="qs-ico">📈</div><div><div class="qs-t">상승</div><div class="qs-k">주간 추세 · 최근 7일 기준</div></div></div><div class="qs-item"><div class="qs-ico">◎</div><div><div class="qs-t">고활성 · 주간 상승</div><div class="qs-k">국면</div></div></div></div>
+  </section>
+</div></div></details>
+<details class="sec" open data-sec="current-position"><summary class="sl"><span class="chev" aria-hidden="true"></span>CURRENT POSITION</summary><div class="sec-body"><section class="card pos-card">
+  <div class="stat-label">관측 4일 범위</div>
+  <div class="track"><div class="fill"></div><div class="mk"></div></div>
+  <div class="labs"><span>94,531</span><span>116,110</span></div>
+  <div class="stat-sub">오늘 위치 100% · (오늘−최저)÷(최고−최저)</div>
+  <div class="vol-row">
+    <div class="stat-label">변동성 (7일 상대표준편차 CV)</div>
+    <div class="stat-val">8.1% · 보통</div>
+  </div>
+  <div class="vol-track"><div class="vol-fill"></div></div>
+  <div class="stat-sub">게이지: CV 0~30%를 0~100%로 표시</div>
+</section></div></details>
+<details class="sec" open data-sec="today-s-briefing"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY'S BRIEFING</summary><div class="sec-body"><section class="card brief"><div class="brief-head">➡️ 소폭 상승</div><p>Top20 합산은 <b>116,110</b>으로 전일보다 <b>+3,610</b> (+3.2%) 증가했습니다.</p><p>현재까지의 관측 기간 중 <b>최고치</b>를 기록했습니다.</p><p></p></section></div></details>
+<details class="sec" open data-sec="activity-trend"><summary class="sl"><span class="chev" aria-hidden="true"></span>ACTIVITY TREND</summary><div class="sec-body"><section class="card trend-card"><div class="tabs tabs-combined-trend"><input class="tab-radio" type="radio" name="combined-trend" id="combined-trend-1" checked/><input class="tab-radio" type="radio" name="combined-trend" id="combined-trend-2" disabled/><input class="tab-radio" type="radio" name="combined-trend" id="combined-trend-3" disabled/><div class="tab-labels" role="tablist"><label class="tab-label t1" for="combined-trend-1">30일</label><label class="tab-label t2 is-disabled" for="combined-trend-2" aria-disabled="true" title="데이터 누적 중 (4/60일)">60일<small>데이터 누적 중 (4/60일)</small></label><label class="tab-label t3 is-disabled" for="combined-trend-3" aria-disabled="true" title="데이터 누적 중 (4/90일)">90일<small>데이터 누적 중 (4/90일)</small></label></div><div class="tab-panels"><div class="tab-panel p1"><img class="chart" src="https://quickchart.io/chart?v=4&w=1000&h=400&devicePixelRatio=3&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%2210-01%20%28%5Cubaa9%29%22%2C%2210-02%20%28%5Cuae08%29%22%2C%2210-03%20%28%5Cud1a0%29%22%2C%2210-04%20%28%5Cuc77c%29%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%5Cuc0c1%5Cuc70420%22%2C%22data%22%3A%5B94531%2C101725%2C112500%2C116110%5D%2C%22borderColor%22%3A%22%2389b4fa%22%2C%22backgroundColor%22%3A%22rgba%28137%2C180%2C250%2C0.16%29%22%2C%22borderWidth%22%3A3.5%2C%22pointRadius%22%3A%5B5%2C5%2C5%2C8%5D%2C%22pointHoverRadius%22%3A9%2C%22pointBackgroundColor%22%3A%22%2389b4fa%22%2C%22pointBorderColor%22%3A%22%2311111b%22%2C%22pointBorderWidth%22%3A2%2C%22fill%22%3Atrue%2C%22tension%22%3A0.35%7D%2C%7B%22label%22%3A%227%5Cuc77c%20%5Cuc774%5Cub3d9%5Cud3c9%5Cuade0%22%2C%22data%22%3A%5Bnull%2Cnull%2Cnull%2Cnull%5D%2C%22borderColor%22%3A%22%23a6e3a1%22%2C%22borderWidth%22%3A2.5%2C%22pointRadius%22%3A0%2C%22fill%22%3Afalse%2C%22tension%22%3A0.35%7D%2C%7B%22label%22%3A%2230%5Cuc77c%20%5Cud3c9%5Cuade0%22%2C%22data%22%3A%5B106216.5%2C106216.5%2C106216.5%2C106216.5%5D%2C%22borderColor%22%3A%22%23cdd6f4%22%2C%22borderWidth%22%3A1.5%2C%22borderDash%22%3A%5B6%2C4%5D%2C%22pointRadius%22%3A0%2C%22fill%22%3Afalse%2C%22tension%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22responsive%22%3Atrue%2C%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A12%2C%22right%22%3A16%2C%22bottom%22%3A10%2C%22left%22%3A8%7D%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Atrue%2C%22position%22%3A%22top%22%2C%22align%22%3A%22end%22%2C%22labels%22%3A%7B%22color%22%3A%22%23cdd6f4%22%2C%22boxWidth%22%3A14%2C%22boxHeight%22%3A14%2C%22padding%22%3A12%2C%22font%22%3A%7B%22size%22%3A15%2C%22weight%22%3A%22500%22%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%2230%5Cuc77c%20%5Cud65c%5Cuc131%5Cub3c4%20%5Cucd94%5Cuc138%20%5Cu00b7%20%5Cuc2e4%5Cuc120%3D%5Cuc77c%5Cubcc4%20%5Cu00b7%20%5Cub179%3D7%5Cuc77c%20%5Cuc774%5Cub3d9%5Cud3c9%5Cuade0%20%5Cu00b7%20%5Cuc810%5Cuc120%3D30%5Cuc77c%20%5Cud3c9%5Cuade0%22%2C%22color%22%3A%22%23e4e4ef%22%2C%22font%22%3A%7B%22size%22%3A17%2C%22weight%22%3A%22600%22%7D%2C%22padding%22%3A%7B%22top%22%3A6%2C%22bottom%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A12%2C%22padding%22%3A6%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%2C%22border%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.08%29%22%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22padding%22%3A8%2C%22maxTicksLimit%22%3A6%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.06%29%22%7D%2C%22border%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%2C%22backgroundColor%22%3A%22%23181825%22%7D" alt="30d"/></div><div class="tab-panel p2 is-disabled"></div><div class="tab-panel p3 is-disabled"></div></div></div></section></div></details>
+<details class="sec" open data-sec="recent-momentum"><summary class="sl"><span class="chev" aria-hidden="true"></span>RECENT MOMENTUM · 7 DAYS</summary><div class="sec-body"><div class="momentum-grid">
+  <section class="card"><img class="chart" src="https://quickchart.io/chart?v=4&w=1000&h=360&devicePixelRatio=3&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22%5Cubaa9%22%2C%22%5Cuae08%22%2C%22%5Cud1a0%22%2C%22%5Cuc77c%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22%5Cubcc0%5Cud654%5Cuc728%20%25%22%2C%22data%22%3A%5B94531%2C101725%2C112500%2C116110%5D%2C%22backgroundColor%22%3A%5B%22%2345475a%22%2C%22%2345475a%22%2C%22%2345475a%22%2C%22%23a6e3a1%22%5D%2C%22borderWidth%22%3A0%2C%22borderRadius%22%3A4%7D%5D%7D%2C%22options%22%3A%7B%22responsive%22%3Atrue%2C%22layout%22%3A%7B%22padding%22%3A%7B%22top%22%3A12%2C%22right%22%3A12%2C%22bottom%22%3A10%2C%22left%22%3A8%7D%7D%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22%5Cucd5c%5Cuadfc%207%5Cuc77c%20%5Cud65c%5Cuc131%5Cub3c4%20%5Cu00b7%20%5Cuc624%5Cub298%20%5Cuac15%5Cuc870%22%2C%22color%22%3A%22%23e4e4ef%22%2C%22font%22%3A%7B%22size%22%3A17%2C%22weight%22%3A%22600%22%7D%2C%22padding%22%3A%7B%22top%22%3A6%2C%22bottom%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22maxRotation%22%3A0%2C%22autoSkip%22%3Atrue%2C%22maxTicksLimit%22%3A12%2C%22padding%22%3A6%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23a6adc8%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22500%22%7D%2C%22padding%22%3A8%2C%22maxTicksLimit%22%3A6%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28255%2C255%2C255%2C0.06%29%22%7D%2C%22border%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%2C%22backgroundColor%22%3A%22%23181825%22%7D" alt="7d"/></section>
+  <section class="card">
+    <div class="momentum-stat"><div class="momentum-k">최근 7일 평균</div><div class="momentum-v">106,216</div>
+      <div class="momentum-s">오늘 <span class="up">+9.3%</span></div></div>
+    <div class="momentum-stat"><div class="momentum-k">최근 7일 범위</div><div class="momentum-v">94.5K ~ 116.1K</div>
+      <div class="momentum-s">변동폭 21,579</div></div>
+    <div class="momentum-stat"><div class="momentum-k">주간 비교</div><div class="momentum-v ">축적 중</div>
+      <div class="momentum-s">최근 7일 vs 직전 7일</div></div>
+    <div class="momentum-stat"><div class="momentum-k">현재 수준</div><div class="momentum-v">매우 높음</div>
+      <div class="momentum-s">고활성 · 주간 상승</div></div>
+  </section>
+</div></div></details>
+<details class="sec" open data-sec="weekday-pattern"><summary class="sl"><span class="chev" aria-hidden="true"></span>WEEKDAY PATTERN</summary><div class="sec-body"><section class="card weekday-card"><div class="weekday-title">요일별 활성 패턴</div><div class="tab-empty">데이터 누적 중 (4/21일) · 4주 패턴은 21일 이상 기록 후 표시됩니다.</div></section></div></details>
+<details class="sec" open data-sec="activity-heatmap"><summary class="sl"><span class="chev" aria-hidden="true"></span>ACTIVITY HEATMAP</summary><div class="sec-body"><section class="card heatmap-card"><div class="tabs tabs-combined-heat"><input class="tab-radio" type="radio" name="combined-heat" id="combined-heat-1" checked/><input class="tab-radio" type="radio" name="combined-heat" id="combined-heat-2" disabled/><input class="tab-radio" type="radio" name="combined-heat" id="combined-heat-3" disabled/><div class="tab-labels" role="tablist"><label class="tab-label t1" for="combined-heat-1">30일</label><label class="tab-label t2 is-disabled" for="combined-heat-2" aria-disabled="true" title="데이터 누적 중 (4/60일)">60일<small>데이터 누적 중 (4/60일)</small></label><label class="tab-label t3 is-disabled" for="combined-heat-3" aria-disabled="true" title="데이터 누적 중 (4/90일)">90일<small>데이터 누적 중 (4/90일)</small></label></div><div class="tab-panels"><div class="tab-panel p1"><div class="heatmap-head"><div><div class="heatmap-title">최근 30일 활성도 분포</div><div class="heatmap-desc">08-08 이후 칸을 누르면 그날 보고서로 이동합니다. 08-01~07은 보고서 파일이 없어 링크가 없습니다. 색 단계는 선택한 기간 안에서 다시 계산됩니다.</div></div><div class="heat-scale"><span>LOW</span><i class="h1"></i><i class="h2"></i><i class="h3"></i><i class="h4"></i><i class="h5"></i><span>HIGH</span><span class="hol-legend"><i class="hol-sw"></i>공휴일</span></div></div><div class="heatmap-scroll"><div class="heatmap-grid"><div class="heat-weekday"></div><div class="heat-weekday">월</div><div class="heat-weekday">화</div><div class="heat-weekday">수</div><div class="heat-weekday">목</div><div class="heat-weekday">금</div><div class="heat-weekday">토</div><div class="heat-weekday">일</div><div class="heat-week">W1</div><div class="heat-cell empty"></div><div class="heat-cell empty"></div><div class="heat-cell empty"></div><a class="heat-cell h1" href="https://caliburn4u.github.io/caveduck-ranking/reports/2026-10-01.html" title="2026-10-01 보고서"><span>01</span><b>94.5K</b></a><a class="heat-cell h2" href="https://caliburn4u.github.io/caveduck-ranking/reports/2026-10-02.html" title="2026-10-02 보고서"><span>02</span><b>101.7K</b></a><a class="heat-cell h5 heat-holiday" href="https://caliburn4u.github.io/caveduck-ranking/reports/2026-10-03.html" title="2026-10-03 보고서 · 공휴일: 개천절"><span>03</span><em class="hol-tag">개천절</em><b>112.5K</b></a><a class="heat-cell h5 heat-today" href="https://caliburn4u.github.io/caveduck-ranking/reports/2026-10-04.html" title="2026-10-04 보고서"><span>04</span><b>116.1K</b></a></div></div></div><div class="tab-panel p2 is-disabled"></div><div class="tab-panel p3 is-disabled"></div></div></div></section></div></details>
+<details class="sec" open data-sec="detailed-comparison"><summary class="sl"><span class="chev" aria-hidden="true"></span>DETAILED COMPARISON</summary><div class="sec-body"><section class="card"><table class="compare-table"><thead><tr><th>비교 기준</th><th>기준값</th><th>차이</th></tr></thead>
+<tbody><tr><td>전일</td><td>112,500</td><td class="value up">▲ +3.2%</td></tr><tr><td>최근 7일 평균</td><td>106,216</td><td class="value up">▲ +9.3%</td></tr><tr><td>관측 최고 · 10-04 (일)</td><td>116,110</td><td class="value flat">→ +0.0%</td></tr></tbody></table></section></div></details>
+<details class="sec" open data-sec="data-records"><summary class="sl"><span class="chev" aria-hidden="true"></span>DATA RECORDS</summary><div class="sec-body"><section class="card">
+<table><thead><tr><th>날짜</th><th class="col-time">시각</th><th class="num">총합</th><th class="num">전일 대비</th></tr></thead>
+<tbody><tr class="is-today"><td>10-04 (일)</td><td class="col-time">22:14</td><td class="num">116,110</td><td class="num up">▲ +3.2%</td></tr><tr class=""><td>10-03 (토)</td><td class="col-time">22:07</td><td class="num">112,500</td><td class="num up">▲ +10.6%</td></tr><tr class=""><td>10-02 (금)</td><td class="col-time">22:19</td><td class="num">101,725</td><td class="num up">▲ +7.6%</td></tr><tr class=""><td>10-01 (목)</td><td class="col-time">22:31</td><td class="num">94,531</td><td class="num">—</td></tr></tbody></table>
+
+</section></div></details>
+<details class="sec" open data-sec="data-status-methodology"><summary class="sl"><span class="chev" aria-hidden="true"></span>DATA STATUS & METHODOLOGY</summary><div class="sec-body"><section class="card"><details class="fold"><summary>산출 기준 및 데이터 상태 · 관측 4일</summary>
+<div class="method">
+<p><b>관측 대상</b><br/>Top20 채팅 합산. 개별 캐릭터 분석 없음.</p>
+<p><b>활성도 지수</b><br/>수준 50 + 추세 25 + 모멘텀 15 + 안정성 10. 30일+ Beta.</p>
+<p><b>히트맵</b><br/>선택 기간(30/60/90일) 안의 min-max 상대 위치 5단계. 단일 녹색 명도. 한국 공휴일(대체공휴일 포함)은 코랄 테두리+이름 표시.</p>
+<p><b>기간 탭</b><br/>추세·요일 패턴·히트맵은 30/60/90일(요일 4/8/12주) 탭 제공. 기간 일수가 부족한 탭은 「데이터 누적 중」으로 비활성.</p>
+<p><b>주의</b><br/>플랫폼 전체 공식 트래픽이 아닌 참고 지표.</p>
+</div></details></section></div></details>
+</div><div class="seg-panel sp-male" style="--accent:#f38ba8;--pos:48.72%;--vg:32.3%"><div class="seg-note"><span class="seg-info">개인 맞춤 설정 '남성향' 기준 Top20이에요.</span></div><details class="sec" open data-sec="today-at-a-glance"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY AT A GLANCE</summary><div class="sec-body"><div class="glance-grid">
   <section class="hero">
     <div class="hero-label">ACTIVITY INDEX</div>
     <div class="hero-main"><div class="hero-num">57</div><div class="hero-unit">/ 100</div></div>
@@ -334,7 +411,7 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
 <p><b>기간 탭</b><br/>추세·요일 패턴·히트맵은 30/60/90일(요일 4/8/12주) 탭 제공. 기간 일수가 부족한 탭은 「데이터 누적 중」으로 비활성.</p>
 <p><b>주의</b><br/>플랫폼 전체 공식 트래픽이 아닌 참고 지표.</p>
 </div></details></section></div></details>
-</div><div class="seg-panel sp-female" style="--accent:#a6e3a1;--pos:100.00%;--vg:49.8%"><div class="seg-note">종합·여성향 집계는 2026-10-01부터 시작 · caveduck.io 1일 인기 랭킹(NSFW 포함), 선호 캐릭터 「여성향」 Top20 · 수집 22:14 KST</div><details class="sec" open data-sec="today-at-a-glance"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY AT A GLANCE</summary><div class="sec-body"><div class="glance-grid">
+</div><div class="seg-panel sp-female" style="--accent:#a6e3a1;--pos:100.00%;--vg:49.8%"><div class="seg-note"><span class="seg-info">개인 맞춤 설정 '여성향' 기준 Top20이에요.</span><span class="seg-meta">2026-10-01부터 집계 · 수집 22:14 KST</span></div><details class="sec" open data-sec="today-at-a-glance"><summary class="sl"><span class="chev" aria-hidden="true"></span>TODAY AT A GLANCE</summary><div class="sec-body"><div class="glance-grid">
   <section class="hero">
     <div class="hero-label">TODAY</div>
     <div class="hero-main"><div class="hero-num">80,100</div><div class="hero-unit"></div></div>
@@ -400,7 +477,7 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
 <p><b>주의</b><br/>플랫폼 전체 공식 트래픽이 아닌 참고 지표.</p>
 </div></details></section></div></details>
 </div>
-<footer>CAVEDUCK ACTIVITY REPORT · Top20 합산 참고 지표 · 2026-10-04 <span class="segv sv-all">22:14</span><span class="segv sv-male">22:02</span><span class="segv sv-female">22:14</span> KST</footer>
+<footer>CAVEDUCK ACTIVITY REPORT · Top20 합산 참고 지표 · 2026-10-04 <span class="segv sv-all">22:14</span><span class="segv sv-combined">22:14</span><span class="segv sv-male">22:02</span><span class="segv sv-female">22:14</span> KST</footer>
 <script>
 (function(){
   var K="caveduck-sec-collapsed", st={};
@@ -415,6 +492,12 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
     sync=true; all().forEach(function(o){ if(o!==d&&o.dataset.sec===k&&o.open!==d.open) o.open=d.open; }); sync=false;
     if(d.open) requestAnimationFrame(function(){window.dispatchEvent(new Event("resize"));});
   },true);
+  document.querySelectorAll(".seg-label").forEach(function(l){
+    var t; l.addEventListener("touchstart",function(){
+      document.querySelectorAll(".seg-label.tip-on").forEach(function(o){o.classList.remove("tip-on");});
+      l.classList.add("tip-on"); clearTimeout(t); t=setTimeout(function(){l.classList.remove("tip-on");},2200);
+    },{passive:true});
+  });
   document.querySelectorAll("[data-sec-all]").forEach(function(b){
     b.addEventListener("click",function(){
       var open=b.dataset.secAll==="open"; sync=true;
