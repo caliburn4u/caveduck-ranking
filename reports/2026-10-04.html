@@ -16,13 +16,16 @@ h1{font-size:1.1rem;font-weight:700;margin:0 0 4px}.report-date{font-size:1.2rem
 .glance-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr) minmax(0,.9fr);gap:10px;align-items:start}
 @media(max-width:900px){.glance-grid{grid-template-columns:1fr 1fr}.signals-card{grid-column:1/-1}}
 @media(max-width:560px){.glance-grid{grid-template-columns:1fr}.signals-card{grid-column:auto}}
-.hero{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:16px;padding:12px 14px 10px;display:flex;flex-direction:column;justify-content:flex-start}
+.hero{--hero-fs:clamp(3.4rem,9vw,4.6rem);background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:16px;padding:12px 14px 10px;display:flex;flex-direction:column;justify-content:flex-start}
 .hero-label{color:var(--muted);font-size:.68rem;letter-spacing:.08em}
 .hero-main{display:flex;align-items:flex-end;gap:8px;margin:2px 0 0}
-.hero-num{font-size:clamp(3.4rem,9vw,4.6rem);line-height:.86;font-weight:850;letter-spacing:-.07em;color:var(--accent)}
+.hero-num{font-size:var(--hero-fs);line-height:.86;font-weight:850;letter-spacing:-.07em;color:var(--accent)}
 .hero-unit{color:var(--muted);font-size:.78rem;padding-bottom:7px}.hero-status{font-size:.78rem;font-weight:700;margin:2px 0 7px}
-.hero-metrics{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);padding-top:7px;gap:4px}
-.hero-metric .k{color:var(--muted);font-size:.64rem}.hero-metric .v{font-size:.9rem;font-weight:750}
+/* hero-half-2026-10-04c: mini stats value = exactly 1/2 of the big hero number (ACTIVITY INDEX score or TODAY fallback); label keeps old .64/.9 ratio */
+.hero-metrics{display:flex;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:8px;gap:6px 16px}
+.hero-metrics--half .hero-metric{flex:1 1 auto;min-width:0}
+.hero-metrics--half .hero-metric .k{color:var(--muted);font-size:calc(var(--hero-fs) / 2 * .64 / .9);line-height:1.15;letter-spacing:.02em;white-space:nowrap}
+.hero-metrics--half .hero-metric .v{font-size:calc(var(--hero-fs) / 2);font-weight:750;line-height:1.1;letter-spacing:-.03em;white-space:nowrap;font-variant-numeric:tabular-nums}
 .baseline-card{padding:0;overflow:hidden}.baseline-head{padding:12px 14px 8px;border-bottom:1px solid var(--line)}
 .baseline-title{font-size:.88rem;font-weight:700}.baseline-sub{color:var(--muted);font-size:.68rem}
 .baseline-list{padding:2px 12px 6px}.baseline-row{display:flex;justify-content:space-between;gap:12px;padding:8px 4px;border-bottom:1px solid var(--line)}
@@ -136,7 +139,7 @@ details.fold summary::-webkit-details-marker{display:none}
 .hol-legend{display:inline-flex;align-items:center;gap:4px;margin-left:10px;color:#ffb3a7}
 .hol-legend .hol-sw{width:11px;height:11px;border-radius:3px;border:2px solid #ff7a6b;background:transparent}
 @media(max-width:560px){.heatmap-head{flex-wrap:wrap}.heat-cell .hol-tag{font-size:.5rem;padding:1px 3px;top:3px;right:3px}}
-@media(max-width:560px){.col-time,th.col-time{display:none}.hero-metrics{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.col-time,th.col-time{display:none}.hero-metrics{gap:6px 14px}}
 .tab-empty{padding:18px 12px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);font-size:.8rem;text-align:center}
 .seg-radio{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
 .title-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px;margin-bottom:4px}.title-row h1{margin:0}
@@ -220,7 +223,7 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
     <div class="hero-label">TODAY</div>
     <div class="hero-main"><div class="hero-num">87,500</div><div class="hero-unit"></div></div>
     <div class="hero-status">고활성 · 반등</div>
-    <div class="hero-metrics">
+    <div class="hero-metrics hero-metrics--half">
       <div class="hero-metric"><div class="k">TODAY</div><div class="v">87,500</div></div>
       <div class="hero-metric"><div class="k">7D AVG</div><div class="v">80,075</div></div>
       <div class="hero-metric"><div class="k">PEAK</div><div class="v">87,500</div></div>
@@ -285,7 +288,7 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
     <div class="hero-label">TODAY</div>
     <div class="hero-main"><div class="hero-num">116,110</div><div class="hero-unit"></div></div>
     <div class="hero-status">고활성 · 주간 상승</div>
-    <div class="hero-metrics">
+    <div class="hero-metrics hero-metrics--half">
       <div class="hero-metric"><div class="k">TODAY</div><div class="v">116,110</div></div>
       <div class="hero-metric"><div class="k">7D AVG</div><div class="v">106,216</div></div>
       <div class="hero-metric"><div class="k">PEAK</div><div class="v">116,110</div></div>
@@ -350,7 +353,7 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
     <div class="hero-label">ACTIVITY INDEX</div>
     <div class="hero-main"><div class="hero-num">57</div><div class="hero-unit">/ 100</div></div>
     <div class="hero-status">보통 · 보통 · 조정</div>
-    <div class="hero-metrics">
+    <div class="hero-metrics hero-metrics--half">
       <div class="hero-metric"><div class="k">TODAY</div><div class="v">43,310</div></div>
       <div class="hero-metric"><div class="k">7D AVG</div><div class="v">48,626</div></div>
       <div class="hero-metric"><div class="k">PEAK</div><div class="v">60,500</div></div>
@@ -416,7 +419,7 @@ html{scroll-padding-top:calc(var(--hdr-h) + 8px)}
     <div class="hero-label">TODAY</div>
     <div class="hero-main"><div class="hero-num">80,100</div><div class="hero-unit"></div></div>
     <div class="hero-status">고활성 · 주간 상승</div>
-    <div class="hero-metrics">
+    <div class="hero-metrics hero-metrics--half">
       <div class="hero-metric"><div class="k">TODAY</div><div class="v">80,100</div></div>
       <div class="hero-metric"><div class="k">7D AVG</div><div class="v">66,641</div></div>
       <div class="hero-metric"><div class="k">PEAK</div><div class="v">80,100</div></div>
