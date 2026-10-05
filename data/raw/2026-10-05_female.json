@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-05",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:19",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 83200,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "🎬 하이틴: 퀸카로 살아남기 2",
+      "chats_raw": "15.0k",
+      "chats": 15000
+    },
+    {
+      "rank": 2,
+      "name": "염세현",
+      "chats_raw": "11.2k",
+      "chats": 11200
+    },
+    {
+      "rank": 3,
+      "name": "키시아르",
+      "chats_raw": "8.2k",
+      "chats": 8200
+    },
+    {
+      "rank": 4,
+      "name": "체리밤",
+      "chats_raw": "7.2k",
+      "chats": 7200
+    },
+    {
+      "rank": 5,
+      "name": "[신부시장] 곽도",
+      "chats_raw": "5.5k",
+      "chats": 5500
+    },
+    {
+      "rank": 6,
+      "name": "데몬",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 7,
+      "name": "정류운",
+      "chats_raw": "3.7k",
+      "chats": 3700
+    },
+    {
+      "rank": 8,
+      "name": "청룡의 동생",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 9,
+      "name": "지영원",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 10,
+      "name": "빌턴",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 11,
+      "name": "아야토",
+      "chats_raw": "2.4k",
+      "chats": 2400
+    },
+    {
+      "rank": 12,
+      "name": "지여운",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 13,
+      "name": "킬리언",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 14,
+      "name": "재후",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 15,
+      "name": "술탄의 하렘",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 16,
+      "name": "룰렌",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 17,
+      "name": "한도일",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 18,
+      "name": "들키지만 않으면",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 19,
+      "name": "강씨네!",
+      "chats_raw": "1.5k",
+      "chats": 1500
+    },
+    {
+      "rank": 20,
+      "name": "지태",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    }
+  ]
+}
