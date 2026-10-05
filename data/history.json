@@ -524,5 +524,12 @@
     "source": "github",
     "total_top20": 43310,
     "corrected": true
+  },
+  {
+    "date": "2026-10-05",
+    "weekday": "월",
+    "time_kst": "22:02",
+    "source": "github",
+    "total_top20": 40400
   }
 ]
