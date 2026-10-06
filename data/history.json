@@ -531,5 +531,15 @@
     "time_kst": "22:02",
     "source": "github",
     "total_top20": 40400
+  },
+  {
+    "date": "2026-10-06",
+    "weekday": "화",
+    "time_kst": "22:02",
+    "time_source": "github_commit",
+    "source": "github",
+    "total_top20": 32418,
+    "top1": 6900,
+    "top10": 1100
   }
 ]
