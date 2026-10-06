@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-06",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:13",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 74000,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "🎬 하이틴: 퀸카로 살아남기 2",
+      "chats_raw": "12.4k",
+      "chats": 12400
+    },
+    {
+      "rank": 2,
+      "name": "체리밤",
+      "chats_raw": "9.1k",
+      "chats": 9100
+    },
+    {
+      "rank": 3,
+      "name": "염세현",
+      "chats_raw": "9.0k",
+      "chats": 9000
+    },
+    {
+      "rank": 4,
+      "name": "키시아르",
+      "chats_raw": "5.0k",
+      "chats": 5000
+    },
+    {
+      "rank": 5,
+      "name": "미준",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 6,
+      "name": "데몬",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 7,
+      "name": "[신부시장] 곽도",
+      "chats_raw": "3.7k",
+      "chats": 3700
+    },
+    {
+      "rank": 8,
+      "name": "재후",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 9,
+      "name": "아야토",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 10,
+      "name": "정류운",
+      "chats_raw": "2.9k",
+      "chats": 2900
+    },
+    {
+      "rank": 11,
+      "name": "사유헌",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 12,
+      "name": "지영원",
+      "chats_raw": "2.4k",
+      "chats": 2400
+    },
+    {
+      "rank": 13,
+      "name": "술탄의 하렘",
+      "chats_raw": "2.4k",
+      "chats": 2400
+    },
+    {
+      "rank": 14,
+      "name": "빌턴",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 15,
+      "name": "킬리언",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 16,
+      "name": "청룡의 동생",
+      "chats_raw": "1.5k",
+      "chats": 1500
+    },
+    {
+      "rank": 17,
+      "name": "연시혁",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 18,
+      "name": "룰렌",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 19,
+      "name": "현채준",
+      "chats_raw": "1.1k",
+      "chats": 1100
+    },
+    {
+      "rank": 20,
+      "name": "임찬희",
+      "chats_raw": "1.1k",
+      "chats": 1100
+    }
+  ]
+}
