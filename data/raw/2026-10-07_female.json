@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-07",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:17",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 75800,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "🎬 하이틴: 퀸카로 살아남기 2",
+      "chats_raw": "14.0k",
+      "chats": 14000
+    },
+    {
+      "rank": 2,
+      "name": "체리밤",
+      "chats_raw": "8.2k",
+      "chats": 8200
+    },
+    {
+      "rank": 3,
+      "name": "차태경",
+      "chats_raw": "7.3k",
+      "chats": 7300
+    },
+    {
+      "rank": 4,
+      "name": "염세현",
+      "chats_raw": "6.6k",
+      "chats": 6600
+    },
+    {
+      "rank": 5,
+      "name": "미준",
+      "chats_raw": "5.3k",
+      "chats": 5300
+    },
+    {
+      "rank": 6,
+      "name": "키시아르",
+      "chats_raw": "4.1k",
+      "chats": 4100
+    },
+    {
+      "rank": 7,
+      "name": "임주혁",
+      "chats_raw": "4.0k",
+      "chats": 4000
+    },
+    {
+      "rank": 8,
+      "name": "재후",
+      "chats_raw": "3.2k",
+      "chats": 3200
+    },
+    {
+      "rank": 9,
+      "name": "데몬",
+      "chats_raw": "2.9k",
+      "chats": 2900
+    },
+    {
+      "rank": 10,
+      "name": "술탄의 하렘",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 11,
+      "name": "예찬",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 12,
+      "name": "정류운",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 13,
+      "name": "아야토",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 14,
+      "name": "지영원",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 15,
+      "name": "사유헌",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 16,
+      "name": "빌턴",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 17,
+      "name": "루시아",
+      "chats_raw": "1.2k",
+      "chats": 1200
+    },
+    {
+      "rank": 18,
+      "name": "무한 창작물 빙의 시뮬레이터",
+      "chats_raw": "1.1k",
+      "chats": 1100
+    },
+    {
+      "rank": 19,
+      "name": "청룡의 동생",
+      "chats_raw": "1.1k",
+      "chats": 1100
+    },
+    {
+      "rank": 20,
+      "name": "미운 오리 새끼 성녀입니다.",
+      "chats_raw": "1.1k",
+      "chats": 1100
+    }
+  ]
+}
