@@ -68,5 +68,15 @@
     "total_top20": 86600,
     "top1": 14100,
     "top10": 3200
+  },
+  {
+    "date": "2026-10-08",
+    "weekday": "목",
+    "time_kst": "22:26",
+    "time_source": "collected",
+    "source": "box-browser",
+    "total_top20": 82300,
+    "top1": 15800,
+    "top10": 3000
   }
 ]
