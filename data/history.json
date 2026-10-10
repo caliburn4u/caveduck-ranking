@@ -553,5 +553,22 @@
     "source": "github",
     "total_top20": 37416,
     "corrected": true
+  },
+  {
+    "date": "2026-10-09",
+    "weekday": "금",
+    "time_kst": "22:02",
+    "source": "github",
+    "total_top20": 40969
+  },
+  {
+    "date": "2026-10-10",
+    "weekday": "토",
+    "time_kst": "22:08",
+    "time_source": "collected",
+    "source": "box-browser",
+    "total_top20": 50363,
+    "top1": 8600,
+    "top10": 1900
   }
 ]
