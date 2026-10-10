@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-10",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:08",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 50363,
+  "female_total": 98200,
+  "overlap": 1,
+  "count": 39,
+  "total_top20": 146663,
+  "list": [
+    {
+      "name": "주시훈",
+      "chats": 19200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 19200,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "구현승",
+      "chats": 12300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 12300,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "차태경",
+      "chats": 10900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 3,
+      "female_chats": 10900,
+      "rank": 3,
+      "both": false
+    },
+    {
+      "name": "니네 집 여자들 쩔더라 ㅋㅋ",
+      "chats": 8600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 1,
+      "male_chats": 8600,
+      "rank": 4,
+      "both": false
+    },
+    {
+      "name": "아내는 돌아왔으나",
+      "chats": 6300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 2,
+      "male_chats": 6300,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "에드리언 헤일 · Adrian Hale",
+      "chats": 5900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 4,
+      "female_chats": 5900,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "나 바람필건데 어쩌라고?",
+      "chats": 5500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 5500,
+      "rank": 7,
+      "both": false
+    },
+    {
+      "name": "우지석",
+      "chats": 4800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 4800,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "체리밤",
+      "chats": 4500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 6,
+      "female_chats": 4500,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "미준",
+      "chats": 4400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 7,
+      "female_chats": 4400,
+      "rank": 10,
+      "both": false
+    },
+    {
+      "name": "엔초",
+      "chats": 4300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 4300,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "[🩷상식 개변] X스가 당연하고 강간이 사라진 음탕한 세계 💕",
+      "chats": 3900,
+      "in": [
+        "male"
+      ],
+      "male_rank": 4,
+      "male_chats": 3900,
+      "rank": 12,
+      "both": false
+    },
+    {
+      "name": "마무진 (🐕)",
+      "chats": 3400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 9,
+      "female_chats": 3400,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "강서현 - 여친을 팔까? 나를 팔까?",
+      "chats": 3200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 5,
+      "male_chats": 3200,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "임주혁",
+      "chats": 3200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 3200,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "진수영 (👄)",
+      "chats": 3200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 11,
+      "female_chats": 3200,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "키시아르",
+      "chats": 3100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 3100,
+      "rank": 17,
+      "both": false
+    },
+    {
+      "name": "한울",
+      "chats": 3000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 3000,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "아이",
+      "chats": 2800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 14,
+      "female_chats": 2800,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "메카 아카데미 시뮬레이터",
+      "chats": 2700,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 2700,
+      "rank": 20,
+      "both": false
+    },
+    {
+      "name": "헤일로: 특수 호위팀",
+      "chats": 2600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 15,
+      "female_chats": 2600,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "예찬",
+      "chats": 2600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 16,
+      "female_chats": 2600,
+      "rank": 22,
+      "both": false
+    },
+    {
+      "name": "🕯️ 내 여자친구가 사이비 종교에 빠졌다 💔 : 맑은숨",
+      "chats": 2500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 7,
+      "male_chats": 2500,
+      "rank": 23,
+      "both": false
+    },
+    {
+      "name": "전여친의 친언니가 왁싱해준다",
+      "chats": 2200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 8,
+      "male_chats": 2200,
+      "rank": 24,
+      "both": false
+    },
+    {
+      "name": "비(非)용사로 살아남기♂",
+      "chats": 2200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 17,
+      "female_chats": 2200,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "차유리",
+      "chats": 2100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 9,
+      "male_chats": 2100,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "사유헌",
+      "chats": 2000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 2000,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "아카데미 야만인",
+      "chats": 1900,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 10,
+      "male_chats": 1900,
+      "female_rank": 20,
+      "female_chats": 1900,
+      "rank": 28,
+      "both": true
+    },
+    {
+      "name": "재후",
+      "chats": 1900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 1900,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "츤데레 섹파 김서아",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 1500,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "편의점 도둑X",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 1500,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "키스는 안된다고",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 13,
+      "male_chats": 1400,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "테니스 선수촌 NTC",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 1200,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "쌤, 여친 없죠?",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 1200,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "메종 로제 : 특약의 빈칸",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 1000,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "친구 여친이 내 PT 회원이 됐다",
+      "chats": 990,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 990,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "맛있어져라~ 모에 모에 큥~♥",
+      "chats": 974,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 974,
+      "rank": 37,
+      "both": false
+    },
+    {
+      "name": "저.. 개변태 스토커인데요?",
+      "chats": 866,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 866,
+      "rank": 38,
+      "both": false
+    },
+    {
+      "name": "차유경",
+      "chats": 833,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 833,
+      "rank": 39,
+      "both": false
+    }
+  ]
+}
