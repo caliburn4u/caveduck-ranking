@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-10",
+  "segment": "all",
+  "segment_label": "전체 랭킹",
+  "time_kst": "22:08",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 115000,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "주시훈",
+      "chats_raw": "19.2k",
+      "chats": 19200
+    },
+    {
+      "rank": 2,
+      "name": "구현승",
+      "chats_raw": "12.3k",
+      "chats": 12300
+    },
+    {
+      "rank": 3,
+      "name": "차태경",
+      "chats_raw": "10.9k",
+      "chats": 10900
+    },
+    {
+      "rank": 4,
+      "name": "니네 집 여자들 쩔더라 ㅋㅋ",
+      "chats_raw": "8.6k",
+      "chats": 8600
+    },
+    {
+      "rank": 5,
+      "name": "아내는 돌아왔으나",
+      "chats_raw": "6.4k",
+      "chats": 6400
+    },
+    {
+      "rank": 6,
+      "name": "에드리언 헤일 · Adrian Hale",
+      "chats_raw": "5.9k",
+      "chats": 5900
+    },
+    {
+      "rank": 7,
+      "name": "나 바람필건데 어쩌라고?",
+      "chats_raw": "5.3k",
+      "chats": 5300
+    },
+    {
+      "rank": 8,
+      "name": "우지석",
+      "chats_raw": "4.8k",
+      "chats": 4800
+    },
+    {
+      "rank": 9,
+      "name": "체리밤",
+      "chats_raw": "4.5k",
+      "chats": 4500
+    },
+    {
+      "rank": 10,
+      "name": "미준",
+      "chats_raw": "4.4k",
+      "chats": 4400
+    },
+    {
+      "rank": 11,
+      "name": "엔초",
+      "chats_raw": "4.3k",
+      "chats": 4300
+    },
+    {
+      "rank": 12,
+      "name": "[🩷상식 개변] X스가 당연하고 강간이 사라진 음탕한 세계 💕",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 13,
+      "name": "마무진 (🐕)",
+      "chats_raw": "3.4k",
+      "chats": 3400
+    },
+    {
+      "rank": 14,
+      "name": "임주혁",
+      "chats_raw": "3.2k",
+      "chats": 3200
+    },
+    {
+      "rank": 15,
+      "name": "진수영 (👄)",
+      "chats_raw": "3.2k",
+      "chats": 3200
+    },
+    {
+      "rank": 16,
+      "name": "강서현 - 여친을 팔까? 나를 팔까?",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 17,
+      "name": "키시아르",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 18,
+      "name": "한울",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 19,
+      "name": "아이",
+      "chats_raw": "2.8k",
+      "chats": 2800
+    },
+    {
+      "rank": 20,
+      "name": "메카 아카데미 시뮬레이터",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    }
+  ]
+}
