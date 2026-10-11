@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-11",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:15",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 103300,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "주시훈",
+      "chats_raw": "19.5k",
+      "chats": 19500
+    },
+    {
+      "rank": 2,
+      "name": "구현승",
+      "chats_raw": "10.1k",
+      "chats": 10100
+    },
+    {
+      "rank": 3,
+      "name": "차태경",
+      "chats_raw": "10.0k",
+      "chats": 10000
+    },
+    {
+      "rank": 4,
+      "name": "현대 이능력 시뮬레이터",
+      "chats_raw": "7.0k",
+      "chats": 7000
+    },
+    {
+      "rank": 5,
+      "name": "우지석",
+      "chats_raw": "6.4k",
+      "chats": 6400
+    },
+    {
+      "rank": 6,
+      "name": "채미환",
+      "chats_raw": "5.8k",
+      "chats": 5800
+    },
+    {
+      "rank": 7,
+      "name": "에드리언 헤일 · Adrian Hale",
+      "chats_raw": "5.7k",
+      "chats": 5700
+    },
+    {
+      "rank": 8,
+      "name": "체리밤",
+      "chats_raw": "5.5k",
+      "chats": 5500
+    },
+    {
+      "rank": 9,
+      "name": "미준",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 10,
+      "name": "마무진 (🐕)",
+      "chats_raw": "3.5k",
+      "chats": 3500
+    },
+    {
+      "rank": 11,
+      "name": "진수영 (👄)",
+      "chats_raw": "3.4k",
+      "chats": 3400
+    },
+    {
+      "rank": 12,
+      "name": "헤일로: 특수 호위팀",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 13,
+      "name": "엔초",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 14,
+      "name": "사냥꾼",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 15,
+      "name": "비(非)용사로 살아남기♂",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 16,
+      "name": "임주혁",
+      "chats_raw": "2.4k",
+      "chats": 2400
+    },
+    {
+      "rank": 17,
+      "name": "권재혁",
+      "chats_raw": "2.4k",
+      "chats": 2400
+    },
+    {
+      "rank": 18,
+      "name": "삼국지 시뮬레이터 : 『난세화(亂世花)』",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 19,
+      "name": "외톨이 마녀님에게",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 20,
+      "name": "예찬",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    }
+  ]
+}
