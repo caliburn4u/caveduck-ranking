@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-13",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:17",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 72100,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "주시훈",
+      "chats_raw": "10.8k",
+      "chats": 10800
+    },
+    {
+      "rank": 2,
+      "name": "차태경",
+      "chats_raw": "8.2k",
+      "chats": 8200
+    },
+    {
+      "rank": 3,
+      "name": "현대 이능력 시뮬레이터",
+      "chats_raw": "6.9k",
+      "chats": 6900
+    },
+    {
+      "rank": 4,
+      "name": "구현승",
+      "chats_raw": "5.6k",
+      "chats": 5600
+    },
+    {
+      "rank": 5,
+      "name": "우지석",
+      "chats_raw": "4.1k",
+      "chats": 4100
+    },
+    {
+      "rank": 6,
+      "name": "시릴",
+      "chats_raw": "3.8k",
+      "chats": 3800
+    },
+    {
+      "rank": 7,
+      "name": "삼국지 시뮬레이터 : 『난세화(亂世花)』",
+      "chats_raw": "3.7k",
+      "chats": 3700
+    },
+    {
+      "rank": 8,
+      "name": "채미환",
+      "chats_raw": "3.4k",
+      "chats": 3400
+    },
+    {
+      "rank": 9,
+      "name": "마무진 (🐕)",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 10,
+      "name": "리치🌴",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 11,
+      "name": "드래곤님, 알을 낳아주세요!",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 12,
+      "name": "엔초",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 13,
+      "name": "헤일로: 특수 호위팀",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 14,
+      "name": "진수영 (👄)",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 15,
+      "name": "마강두",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 16,
+      "name": "비(非)용사로 살아남기♂",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 17,
+      "name": "에드리언 헤일 · Adrian Hale",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 18,
+      "name": "이인혁",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 19,
+      "name": "퓨즈",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 20,
+      "name": "권재혁",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    }
+  ]
+}
