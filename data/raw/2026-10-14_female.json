@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-14",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:14",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 58400,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "주시훈",
+      "chats_raw": "10.3k",
+      "chats": 10300
+    },
+    {
+      "rank": 2,
+      "name": "현대 이능력 시뮬레이터",
+      "chats_raw": "5.6k",
+      "chats": 5600
+    },
+    {
+      "rank": 3,
+      "name": "구현승",
+      "chats_raw": "5.2k",
+      "chats": 5200
+    },
+    {
+      "rank": 4,
+      "name": "우지석",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 5,
+      "name": "이인혁",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 6,
+      "name": "드래곤님, 알을 낳아주세요!",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 7,
+      "name": "삼국지 시뮬레이터 : 『난세화(亂世花)』",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 8,
+      "name": "시릴",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 9,
+      "name": "마무진 (🐕)",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 10,
+      "name": "헤일로: 특수 호위팀",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 11,
+      "name": "에드리언 헤일 · Adrian Hale",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 12,
+      "name": "엔초",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 13,
+      "name": "채미환",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 14,
+      "name": "진수영 (👄)",
+      "chats_raw": "1.9k",
+      "chats": 1900
+    },
+    {
+      "rank": 15,
+      "name": "진구",
+      "chats_raw": "1.9k",
+      "chats": 1900
+    },
+    {
+      "rank": 16,
+      "name": "마강두",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 17,
+      "name": "리치🌴",
+      "chats_raw": "1.5k",
+      "chats": 1500
+    },
+    {
+      "rank": 18,
+      "name": "시봉이의 가족 만들기🐣💕",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 19,
+      "name": "제702특수작전사단",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 20,
+      "name": "퓨즈",
+      "chats_raw": "1.2k",
+      "chats": 1200
+    }
+  ]
+}
