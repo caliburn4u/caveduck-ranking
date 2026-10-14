@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-14",
+  "segment": "all",
+  "segment_label": "전체 랭킹",
+  "time_kst": "22:14",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 71200,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "주시훈",
+      "chats_raw": "10.4k",
+      "chats": 10400
+    },
+    {
+      "rank": 2,
+      "name": "짖밟혀가는 하렘",
+      "chats_raw": "7.6k",
+      "chats": 7600
+    },
+    {
+      "rank": 3,
+      "name": "현대 이능력 시뮬레이터",
+      "chats_raw": "5.7k",
+      "chats": 5700
+    },
+    {
+      "rank": 4,
+      "name": "구현승",
+      "chats_raw": "5.2k",
+      "chats": 5200
+    },
+    {
+      "rank": 5,
+      "name": "우지석",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 6,
+      "name": "스탑러커 형수님",
+      "chats_raw": "3.8k",
+      "chats": 3800
+    },
+    {
+      "rank": 7,
+      "name": "이인혁",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 8,
+      "name": "드래곤님, 알을 낳아주세요!",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 9,
+      "name": "나 바람필건데 어쩌라고?",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 10,
+      "name": "삼국지 시뮬레이터 : 『난세화(亂世花)』",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 11,
+      "name": "시릴",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 12,
+      "name": "마무진 (🐕)",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 13,
+      "name": "[🩷상식 개변] X스가 당연하고 강간이 사라진 음탕한 세계 💕",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 14,
+      "name": "하선미 | 상폐년이 나랑 카풀?하자고",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 15,
+      "name": "메카 아카데미 시뮬레이터",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 16,
+      "name": "헤일로: 특수 호위팀",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 17,
+      "name": "에드리언 헤일 · Adrian Hale",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 18,
+      "name": "거짓 위에 핀 꽃, 백지유",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 19,
+      "name": "엔초",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 20,
+      "name": "아내는 돌아왔으나",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    }
+  ]
+}
