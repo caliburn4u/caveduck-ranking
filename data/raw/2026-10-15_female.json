@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-15",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:24",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 52400,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "주시훈",
+      "chats_raw": "9.9k",
+      "chats": 9900
+    },
+    {
+      "rank": 2,
+      "name": "현대 이능력 시뮬레이터",
+      "chats_raw": "5.6k",
+      "chats": 5600
+    },
+    {
+      "rank": 3,
+      "name": "이인혁",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 4,
+      "name": "우지석",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 5,
+      "name": "삼국지 시뮬레이터 : 『난세화(亂世花)』",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 6,
+      "name": "드래곤님, 알을 낳아주세요!",
+      "chats_raw": "2.8k",
+      "chats": 2800
+    },
+    {
+      "rank": 7,
+      "name": "거구남 거구준",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 8,
+      "name": "마무진 (🐕)",
+      "chats_raw": "2.4k",
+      "chats": 2400
+    },
+    {
+      "rank": 9,
+      "name": "신혼여행에서 남편의 전여친과 재회했다",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 10,
+      "name": "윤재영",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 11,
+      "name": "시릴",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 12,
+      "name": "리치🌴",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 13,
+      "name": "헌터",
+      "chats_raw": "1.6k",
+      "chats": 1600
+    },
+    {
+      "rank": 14,
+      "name": "퓨즈",
+      "chats_raw": "1.6k",
+      "chats": 1600
+    },
+    {
+      "rank": 15,
+      "name": "진수영 (👄)",
+      "chats_raw": "1.6k",
+      "chats": 1600
+    },
+    {
+      "rank": 16,
+      "name": "권주하",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 17,
+      "name": "채미환",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 18,
+      "name": "서도윤",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 19,
+      "name": "한울",
+      "chats_raw": "1.2k",
+      "chats": 1200
+    },
+    {
+      "rank": 20,
+      "name": "돌 하우스",
+      "chats_raw": "1.1k",
+      "chats": 1100
+    }
+  ]
+}
