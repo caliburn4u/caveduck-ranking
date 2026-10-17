@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-17",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:07",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 49700,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "사랑받는 그녀의 시녀입니다",
+      "chats_raw": "7.6k",
+      "chats": 7600
+    },
+    {
+      "rank": 2,
+      "name": "아빠가 ■■■이 됐어요♡",
+      "chats_raw": "5.4k",
+      "chats": 5400
+    },
+    {
+      "rank": 3,
+      "name": "라울",
+      "chats_raw": "3.8k",
+      "chats": 3800
+    },
+    {
+      "rank": 4,
+      "name": "삼국지 시뮬레이터 : 『난세화(亂世花)』",
+      "chats_raw": "3.5k",
+      "chats": 3500
+    },
+    {
+      "rank": 5,
+      "name": "헌터",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 6,
+      "name": "이인혁",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 7,
+      "name": "장무겸",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 8,
+      "name": "오션",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 9,
+      "name": "드래곤님, 알을 낳아주세요!",
+      "chats_raw": "1.9k",
+      "chats": 1900
+    },
+    {
+      "rank": 10,
+      "name": "문해원",
+      "chats_raw": "1.9k",
+      "chats": 1900
+    },
+    {
+      "rank": 11,
+      "name": "서미르",
+      "chats_raw": "1.9k",
+      "chats": 1900
+    },
+    {
+      "rank": 12,
+      "name": "유태민",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 13,
+      "name": "완벽한 약혼자에게",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 14,
+      "name": "백세훈",
+      "chats_raw": "1.6k",
+      "chats": 1600
+    },
+    {
+      "rank": 15,
+      "name": "서도윤",
+      "chats_raw": "1.5k",
+      "chats": 1500
+    },
+    {
+      "rank": 16,
+      "name": "거구남 거구준",
+      "chats_raw": "1.5k",
+      "chats": 1500
+    },
+    {
+      "rank": 17,
+      "name": "테케리온",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 18,
+      "name": "퓨즈",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 19,
+      "name": "엘리엇",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 20,
+      "name": "시릴",
+      "chats_raw": "1.2k",
+      "chats": 1200
+    }
+  ]
+}
