@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-22",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:16",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 31059,
+  "female_total": 72500,
+  "overlap": 1,
+  "count": 39,
+  "total_top20": 96959,
+  "list": [
+    {
+      "name": "나는 74화에 죽는다",
+      "chats": 13900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 13900,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "누드 온 더 아일랜드",
+      "chats": 11900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 11900,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "게임 판타지 시뮬레이터 : REMAKE",
+      "chats": 6700,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 1,
+      "male_chats": 6700,
+      "female_rank": 3,
+      "female_chats": 6600,
+      "rank": 3,
+      "both": true
+    },
+    {
+      "name": "천민강",
+      "chats": 5400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 4,
+      "female_chats": 5400,
+      "rank": 4,
+      "both": false
+    },
+    {
+      "name": "현범",
+      "chats": 4500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 4500,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "사랑받는 그녀의 시녀입니다",
+      "chats": 4000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 6,
+      "female_chats": 4000,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "선우",
+      "chats": 3700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 7,
+      "female_chats": 3700,
+      "rank": 7,
+      "both": false
+    },
+    {
+      "name": "뭐든지 들어주는 의붓엄마",
+      "chats": 3300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 2,
+      "male_chats": 3300,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "완벽한 약혼자에게",
+      "chats": 2900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 2900,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "칼릭스",
+      "chats": 2700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 9,
+      "female_chats": 2700,
+      "rank": 10,
+      "both": false
+    },
+    {
+      "name": "젖소 키우기",
+      "chats": 2500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 2500,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "[왕립대학] 휴고 캐번디시",
+      "chats": 2500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 2500,
+      "rank": 12,
+      "both": false
+    },
+    {
+      "name": "[NTR] 네가 배드민턴 못 쳐서 파트너가 바뀐 걸 왜 내 탓 해?",
+      "chats": 2400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 4,
+      "male_chats": 2400,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "오션",
+      "chats": 2300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 11,
+      "female_chats": 2300,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "콜럼바인은 어느 쪽으로 기우는가",
+      "chats": 2100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 5,
+      "male_chats": 2100,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "서미르",
+      "chats": 2000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 2000,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "신혼여행에 전남친이 왔다",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 1400,
+      "rank": 17,
+      "both": false
+    },
+    {
+      "name": "애완견이 제 보지 냄새를 너무 맡습니다",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 1400,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "로안 발테르",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 14,
+      "female_chats": 1400,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "인피니티",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 15,
+      "female_chats": 1400,
+      "rank": 20,
+      "both": false
+    },
+    {
+      "name": "나이젤",
+      "chats": 1300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 16,
+      "female_chats": 1300,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "아빠가 ■■■이 됐어요♡",
+      "chats": 1200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 17,
+      "female_chats": 1200,
+      "rank": 22,
+      "both": false
+    },
+    {
+      "name": "토오루",
+      "chats": 1200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 1200,
+      "rank": 23,
+      "both": false
+    },
+    {
+      "name": "Lemnis & Survive",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 7,
+      "male_chats": 1100,
+      "rank": 24,
+      "both": false
+    },
+    {
+      "name": "유사연애만 16년째",
+      "chats": 1100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 1100,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "코어",
+      "chats": 1100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 20,
+      "female_chats": 1100,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "한유나",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 8,
+      "male_chats": 1000,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "도둑 고양이",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 9,
+      "male_chats": 1000,
+      "rank": 28,
+      "both": false
+    },
+    {
+      "name": "[NTR] 윤서진 | 여친이 선배 조수석에 탄다",
+      "chats": 994,
+      "in": [
+        "male"
+      ],
+      "male_rank": 10,
+      "male_chats": 994,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "래브라도라이트는 문 밖의 빛을 기다린다",
+      "chats": 988,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 988,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "불시착한 엘프 왕녀",
+      "chats": 979,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 979,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "낙원에 갇힌 우리",
+      "chats": 977,
+      "in": [
+        "male"
+      ],
+      "male_rank": 13,
+      "male_chats": 977,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "LAST MAN : 히어로 아카이브",
+      "chats": 915,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 915,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "내 남자야. 네 남자 아냐",
+      "chats": 893,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 893,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "여동생 왁싱해주기",
+      "chats": 887,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 887,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "강하율",
+      "chats": 779,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 779,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "강호에 나 혼자 떨어졌다",
+      "chats": 772,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 772,
+      "rank": 37,
+      "both": false
+    },
+    {
+      "name": "백채아",
+      "chats": 692,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 692,
+      "rank": 38,
+      "both": false
+    },
+    {
+      "name": "백이현",
+      "chats": 683,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 683,
+      "rank": 39,
+      "both": false
+    }
+  ]
+}
