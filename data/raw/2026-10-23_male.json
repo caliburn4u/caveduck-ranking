@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-23",
+  "segment": "male",
+  "segment_label": "남성향",
+  "time_kst": "22:10",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 41777,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "Lemnis & Survive",
+      "chats_raw": "7.3k",
+      "chats": 7300
+    },
+    {
+      "rank": 2,
+      "name": "게임 판타지 시뮬레이터 : REMAKE",
+      "chats_raw": "7.1k",
+      "chats": 7100
+    },
+    {
+      "rank": 3,
+      "name": "인류는 서큐버스에게 패배했습니다.",
+      "chats_raw": "4.3k",
+      "chats": 4300
+    },
+    {
+      "rank": 4,
+      "name": "신혼여행에 전남친이 왔다",
+      "chats_raw": "3.2k",
+      "chats": 3200
+    },
+    {
+      "rank": 5,
+      "name": "한도아",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 6,
+      "name": "젖소 키우기",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 7,
+      "name": "뭐든지 들어주는 의붓엄마",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 8,
+      "name": "콜럼바인은 어느 쪽으로 기우는가",
+      "chats_raw": "1.6k",
+      "chats": 1600
+    },
+    {
+      "rank": 9,
+      "name": "유메코",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 10,
+      "name": "여동생 왁싱해주기",
+      "chats_raw": "1.0k",
+      "chats": 1000
+    },
+    {
+      "rank": 11,
+      "name": "김희주 | 원장님 거 맞는데요, 선배도 해볼래요?",
+      "chats_raw": "1.0k",
+      "chats": 1000
+    },
+    {
+      "rank": 12,
+      "name": "에리나",
+      "chats_raw": "985",
+      "chats": 985
+    },
+    {
+      "rank": 13,
+      "name": "민하린",
+      "chats_raw": "967",
+      "chats": 967
+    },
+    {
+      "rank": 14,
+      "name": "연우",
+      "chats_raw": "965",
+      "chats": 965
+    },
+    {
+      "rank": 15,
+      "name": "펄 빌라",
+      "chats_raw": "914",
+      "chats": 914
+    },
+    {
+      "rank": 16,
+      "name": "내 남자야. 네 남자 아냐",
+      "chats_raw": "824",
+      "chats": 824
+    },
+    {
+      "rank": 17,
+      "name": "리제로테, 절망적인 엘프",
+      "chats_raw": "823",
+      "chats": 823
+    },
+    {
+      "rank": 18,
+      "name": "아무도 원하지 않는 엘프",
+      "chats_raw": "765",
+      "chats": 765
+    },
+    {
+      "rank": 19,
+      "name": "강호에 나 혼자 떨어졌다",
+      "chats_raw": "727",
+      "chats": 727
+    },
+    {
+      "rank": 20,
+      "name": "《수면 세뇌: 그녀 길들이기》",
+      "chats_raw": "707",
+      "chats": 707
+    }
+  ]
+}
