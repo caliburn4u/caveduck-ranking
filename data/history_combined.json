@@ -343,5 +343,20 @@
     "overlap": 2,
     "overlap_chats": 8900,
     "count": 38
+  },
+  {
+    "date": "2026-10-24",
+    "weekday": "토",
+    "time_kst": "22:07",
+    "time_source": "derived",
+    "source": "derived:male+female",
+    "total_top20": 116058,
+    "top1": 30800,
+    "top10": 2500,
+    "male_total": 34758,
+    "female_total": 86800,
+    "overlap": 2,
+    "overlap_chats": 5500,
+    "count": 38
   }
 ]
