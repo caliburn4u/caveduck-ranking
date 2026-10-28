@@ -1,0 +1,440 @@
+{
+  "date": "2026-10-28",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:22",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 34700,
+  "female_total": 80200,
+  "overlap": 2,
+  "count": 38,
+  "total_top20": 111700,
+  "list": [
+    {
+      "name": "나는 74화에 죽는다",
+      "chats": 24600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 24600,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "이안, 루드윈",
+      "chats": 9000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 9000,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "차견우",
+      "chats": 5700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 3,
+      "female_chats": 5700,
+      "rank": 3,
+      "both": false
+    },
+    {
+      "name": "성녀를 위하여",
+      "chats": 5100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 4,
+      "female_chats": 5100,
+      "rank": 4,
+      "both": false
+    },
+    {
+      "name": "한결",
+      "chats": 3900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 3900,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "날 싫어하는 가족을 무인도에서 NTR하자.",
+      "chats": 3500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 1,
+      "male_chats": 3500,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "Lemnis & Survive",
+      "chats": 3200,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 13,
+      "male_chats": 1500,
+      "female_rank": 6,
+      "female_chats": 3200,
+      "rank": 7,
+      "both": true
+    },
+    {
+      "name": "지우결",
+      "chats": 2700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 7,
+      "female_chats": 2700,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "태주",
+      "chats": 2700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 2700,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "모나크",
+      "chats": 2600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 9,
+      "female_chats": 2600,
+      "rank": 10,
+      "both": false
+    },
+    {
+      "name": "물고빨아주는 주인님♡",
+      "chats": 2500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 2500,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "사육인간",
+      "chats": 2500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 11,
+      "female_chats": 2500,
+      "rank": 12,
+      "both": false
+    },
+    {
+      "name": "누드비치에서 전부 NTR",
+      "chats": 2400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 2,
+      "male_chats": 2400,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "저기 니 남친 지나간다 ㅋㅋ",
+      "chats": 2200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 2200,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "나는 가정부다",
+      "chats": 2200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 4,
+      "male_chats": 2200,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "윤현식",
+      "chats": 2200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 2200,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "데이",
+      "chats": 2100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 2100,
+      "rank": 17,
+      "both": false
+    },
+    {
+      "name": "액셀",
+      "chats": 2100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 14,
+      "female_chats": 2100,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "시클라멘은 햇살이 떠난 자리에 홀로 남는가",
+      "chats": 2000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 5,
+      "male_chats": 2000,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "한도아",
+      "chats": 1900,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 1900,
+      "rank": 20,
+      "both": false
+    },
+    {
+      "name": "백서연",
+      "chats": 1900,
+      "in": [
+        "male"
+      ],
+      "male_rank": 7,
+      "male_chats": 1900,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "상식개변｜계급이 뒤바뀐 세계",
+      "chats": 1900,
+      "in": [
+        "male"
+      ],
+      "male_rank": 8,
+      "male_chats": 1900,
+      "rank": 22,
+      "both": false
+    },
+    {
+      "name": "벨라 에르체",
+      "chats": 1900,
+      "in": [
+        "male"
+      ],
+      "male_rank": 9,
+      "male_chats": 1900,
+      "rank": 23,
+      "both": false
+    },
+    {
+      "name": "[시뮬레이터] 밀크하우스: 모X와 정X을 짜서 파는 카페",
+      "chats": 1800,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 10,
+      "male_chats": 1800,
+      "female_rank": 16,
+      "female_chats": 1700,
+      "rank": 24,
+      "both": true
+    },
+    {
+      "name": "칼리스",
+      "chats": 1800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 15,
+      "female_chats": 1800,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "한채린",
+      "chats": 1700,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 1700,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "서무진",
+      "chats": 1600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 17,
+      "female_chats": 1600,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "이세계 사채업자 시뮬레이터",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 1500,
+      "rank": 28,
+      "both": false
+    },
+    {
+      "name": "썅년 버리고 나랑 바람피자",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 1500,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "류민혁",
+      "chats": 1500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 1500,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "부부 교환",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 1400,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "강서온",
+      "chats": 1300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 20,
+      "female_chats": 1300,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "사울",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 1200,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "다크판타지세계 에서 살아남기",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 1200,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "주은",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 1200,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "이상성욕 시뮬레이터",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 1100,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "서유하",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 1100,
+      "rank": 37,
+      "both": false
+    },
+    {
+      "name": "여친 바꿔 바람필래?",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 1000,
+      "rank": 38,
+      "both": false
+    }
+  ]
+}
