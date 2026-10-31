@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-31",
+  "segment": "all",
+  "segment_label": "전체 랭킹",
+  "time_kst": "22:11",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 68100,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "⚠️생존 게임 시뮬레이터",
+      "chats_raw": "9.0k",
+      "chats": 9000
+    },
+    {
+      "rank": 2,
+      "name": "강태범",
+      "chats_raw": "6.0k",
+      "chats": 6000
+    },
+    {
+      "rank": 3,
+      "name": "스트리머 타락시키기",
+      "chats_raw": "5.2k",
+      "chats": 5200
+    },
+    {
+      "rank": 4,
+      "name": "이안, 루드윈",
+      "chats_raw": "5.2k",
+      "chats": 5200
+    },
+    {
+      "rank": 5,
+      "name": "가족들이 내 시한부 약을",
+      "chats_raw": "4.5k",
+      "chats": 4500
+    },
+    {
+      "rank": 6,
+      "name": "차견우",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 7,
+      "name": "태주",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 8,
+      "name": "인간 출입 금지 회사에 취직해 버렸다",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 9,
+      "name": "날 싫어하는 가족을 무인도에서 NTR하자.",
+      "chats_raw": "2.8k",
+      "chats": 2800
+    },
+    {
+      "rank": 10,
+      "name": "아르센",
+      "chats_raw": "2.8k",
+      "chats": 2800
+    },
+    {
+      "rank": 11,
+      "name": "주호령",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 12,
+      "name": "어서와~ 망한 히어로팀은 처음이지?",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 13,
+      "name": "🔞아이돌로 살아남기",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 14,
+      "name": "백서연",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 15,
+      "name": "한결",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 16,
+      "name": "조교해봤어?",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 17,
+      "name": "알바생이 내가 사장인지 모른다",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 18,
+      "name": "몰락한 가문의 악역 영애에 빙의했다",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 19,
+      "name": "액셀",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 20,
+      "name": "몸 안대줄거니까 꺼져",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    }
+  ]
+}
