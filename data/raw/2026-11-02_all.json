@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-02",
+  "segment": "all",
+  "segment_label": "전체 랭킹",
+  "time_kst": "22:13",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 85800,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "⚠️생존 게임 시뮬레이터",
+      "chats_raw": "10.8k",
+      "chats": 10800
+    },
+    {
+      "rank": 2,
+      "name": "🌧️여우비가 내리면",
+      "chats_raw": "8.9k",
+      "chats": 8900
+    },
+    {
+      "rank": 3,
+      "name": "태오",
+      "chats_raw": "6.1k",
+      "chats": 6100
+    },
+    {
+      "rank": 4,
+      "name": "전지적 들러리 시점",
+      "chats_raw": "5.4k",
+      "chats": 5400
+    },
+    {
+      "rank": 5,
+      "name": "헌터 시뮬레이터",
+      "chats_raw": "5.2k",
+      "chats": 5200
+    },
+    {
+      "rank": 6,
+      "name": "스트리머 타락시키기",
+      "chats_raw": "4.7k",
+      "chats": 4700
+    },
+    {
+      "rank": 7,
+      "name": "이안, 루드윈",
+      "chats_raw": "4.6k",
+      "chats": 4600
+    },
+    {
+      "rank": 8,
+      "name": "강태범",
+      "chats_raw": "3.9k",
+      "chats": 3900
+    },
+    {
+      "rank": 9,
+      "name": "자지대결 할사람 구함",
+      "chats_raw": "3.8k",
+      "chats": 3800
+    },
+    {
+      "rank": 10,
+      "name": "지옥 유일 가이드입니다",
+      "chats_raw": "3.6k",
+      "chats": 3600
+    },
+    {
+      "rank": 11,
+      "name": "차견우",
+      "chats_raw": "3.4k",
+      "chats": 3400
+    },
+    {
+      "rank": 12,
+      "name": "아르센",
+      "chats_raw": "3.4k",
+      "chats": 3400
+    },
+    {
+      "rank": 13,
+      "name": "가족들이 내 시한부 약을",
+      "chats_raw": "3.1k",
+      "chats": 3100
+    },
+    {
+      "rank": 14,
+      "name": "이혼준비",
+      "chats_raw": "2.9k",
+      "chats": 2900
+    },
+    {
+      "rank": 15,
+      "name": "주호령",
+      "chats_raw": "2.9k",
+      "chats": 2900
+    },
+    {
+      "rank": 16,
+      "name": "날 싫어하는 가족을 무인도에서 NTR하자.",
+      "chats_raw": "2.9k",
+      "chats": 2900
+    },
+    {
+      "rank": 17,
+      "name": "인간 출입 금지 회사에 취직해 버렸다",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 18,
+      "name": "RE : 아르케 온라인❤️",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 19,
+      "name": "류건",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 20,
+      "name": "트리스탄 몽고메리",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    }
+  ]
+}
