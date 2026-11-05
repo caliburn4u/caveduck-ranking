@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-05",
+  "segment": "male",
+  "segment_label": "남성향",
+  "time_kst": "22:12",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 51340,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "히어로 빌런 시뮬레이터",
+      "chats_raw": "8.5k",
+      "chats": 8500
+    },
+    {
+      "rank": 2,
+      "name": "아다만트는 어떤 맹세를 지키는가",
+      "chats_raw": "7.2k",
+      "chats": 7200
+    },
+    {
+      "rank": 3,
+      "name": "니가 꼬실수 있겠냐?ㅋㅋㅋ",
+      "chats_raw": "4.8k",
+      "chats": 4800
+    },
+    {
+      "rank": 4,
+      "name": "🎲가챠 NPC!",
+      "chats_raw": "4.5k",
+      "chats": 4500
+    },
+    {
+      "rank": 5,
+      "name": "헌터 시뮬레이터",
+      "chats_raw": "3.5k",
+      "chats": 3500
+    },
+    {
+      "rank": 6,
+      "name": "RE : 아르케 온라인❤️",
+      "chats_raw": "3.5k",
+      "chats": 3500
+    },
+    {
+      "rank": 7,
+      "name": "중세 판타지 시뮬레이터",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 8,
+      "name": "튜베로즈는 다른 향기를 품는다",
+      "chats_raw": "1.9k",
+      "chats": 1900
+    },
+    {
+      "rank": 9,
+      "name": "내 섹파한테 남자친구가 생겼다",
+      "chats_raw": "1.9k",
+      "chats": 1900
+    },
+    {
+      "rank": 10,
+      "name": "민서하",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 11,
+      "name": "이혼준비",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 12,
+      "name": "토모에",
+      "chats_raw": "1.6k",
+      "chats": 1600
+    },
+    {
+      "rank": 13,
+      "name": "엑스 릴리움",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 14,
+      "name": "국제기구 메리디안",
+      "chats_raw": "1.2k",
+      "chats": 1200
+    },
+    {
+      "rank": 15,
+      "name": "능욕당하는 시뮬레이션",
+      "chats_raw": "1.2k",
+      "chats": 1200
+    },
+    {
+      "rank": 16,
+      "name": "여친 본가에 얹혀살다 여동생과 엄마까지 덮친 여름방학",
+      "chats_raw": "1.1k",
+      "chats": 1100
+    },
+    {
+      "rank": 17,
+      "name": "어서와~ 망한 히어로팀은 처음이지?",
+      "chats_raw": "1.0k",
+      "chats": 1000
+    },
+    {
+      "rank": 18,
+      "name": "케이티와 마리",
+      "chats_raw": "859",
+      "chats": 859
+    },
+    {
+      "rank": 19,
+      "name": "최애 버튜버의 비밀을 알아버렸다",
+      "chats_raw": "846",
+      "chats": 846
+    },
+    {
+      "rank": 20,
+      "name": "덕통방통 사주",
+      "chats_raw": "835",
+      "chats": 835
+    }
+  ]
+}
