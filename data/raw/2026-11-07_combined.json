@@ -1,0 +1,440 @@
+{
+  "date": "2026-11-07",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:15",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 59500,
+  "female_total": 67300,
+  "overlap": 2,
+  "count": 38,
+  "total_top20": 122500,
+  "list": [
+    {
+      "name": "오메가는 인권이 없다",
+      "chats": 10100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 10100,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "태오",
+      "chats": 10100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 10100,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "제 첫사랑은 걸레였습니다",
+      "chats": 9400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 1,
+      "male_chats": 9400,
+      "rank": 3,
+      "both": false
+    },
+    {
+      "name": "히어로 빌런 시뮬레이터",
+      "chats": 8600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 2,
+      "male_chats": 8600,
+      "rank": 4,
+      "both": false
+    },
+    {
+      "name": "친구니까, 괜찮지?",
+      "chats": 5300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 5300,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "메이트 길들이기💞 : 아발론",
+      "chats": 5100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 4,
+      "male_chats": 5100,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "강남 호스트바 시뮬레이션",
+      "chats": 5100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 3,
+      "female_chats": 5100,
+      "rank": 7,
+      "both": false
+    },
+    {
+      "name": "레녹스",
+      "chats": 4800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 4,
+      "female_chats": 4800,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "칼렙",
+      "chats": 4400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 4400,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "조신국｜일처다부제",
+      "chats": 3200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 6,
+      "female_chats": 3200,
+      "rank": 10,
+      "both": false
+    },
+    {
+      "name": "튜베로즈는 다른 향기를 품는다",
+      "chats": 2900,
+      "in": [
+        "male"
+      ],
+      "male_rank": 5,
+      "male_chats": 2900,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "내 섹파한테 남자친구가 생겼다",
+      "chats": 2800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 2800,
+      "rank": 12,
+      "both": false
+    },
+    {
+      "name": "강아인",
+      "chats": 2700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 7,
+      "female_chats": 2700,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "테오 본",
+      "chats": 2600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 2600,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "최재희",
+      "chats": 2500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 9,
+      "female_chats": 2500,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "발타자르 폰 에버하르트",
+      "chats": 2400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 2400,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "OFF THE RECORD",
+      "chats": 2300,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 7,
+      "male_chats": 2300,
+      "female_rank": 11,
+      "female_chats": 2300,
+      "rank": 17,
+      "both": true
+    },
+    {
+      "name": "유니즈 이자카야 타이쿤",
+      "chats": 2300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 2300,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "건",
+      "chats": 2200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 2200,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "에이지",
+      "chats": 2200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 14,
+      "female_chats": 2200,
+      "rank": 20,
+      "both": false
+    },
+    {
+      "name": "아다만트는 어떤 맹세를 지키는가",
+      "chats": 2100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 8,
+      "male_chats": 2100,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "엑스 릴리움",
+      "chats": 2100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 9,
+      "male_chats": 2100,
+      "rank": 22,
+      "both": false
+    },
+    {
+      "name": "염경연",
+      "chats": 2000,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 10,
+      "male_chats": 2000,
+      "female_rank": 15,
+      "female_chats": 2000,
+      "rank": 23,
+      "both": true
+    },
+    {
+      "name": "악녀심판:김미경👮‍♀️",
+      "chats": 2000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 2000,
+      "rank": 24,
+      "both": false
+    },
+    {
+      "name": "린테라♡온라인",
+      "chats": 2000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 2000,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "최애의 라이벌",
+      "chats": 1900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 16,
+      "female_chats": 1900,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "RE : 아르케 온라인❤️",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 13,
+      "male_chats": 1800,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "중세 판타지 시뮬레이터",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 1800,
+      "rank": 28,
+      "both": false
+    },
+    {
+      "name": "🎲가챠 NPC!",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 1800,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "류상하",
+      "chats": 1800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 17,
+      "female_chats": 1800,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "소극적인 내 여친은 그 선배의 요구를 거절 못한다",
+      "chats": 1700,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 1700,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "채서준",
+      "chats": 1600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 1600,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "이능력 생존 시뮬레이터♂",
+      "chats": 1600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 1600,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "강이설",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 1500,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "니가 꼬실수 있겠냐?ㅋㅋㅋ",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 1500,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "류건",
+      "chats": 1500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 20,
+      "female_chats": 1500,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "능욕당하는 시뮬레이션",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 1400,
+      "rank": 37,
+      "both": false
+    },
+    {
+      "name": "나만 유독 괴롭히는 일진녀",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 1400,
+      "rank": 38,
+      "both": false
+    }
+  ]
+}
