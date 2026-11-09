@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-09",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:13",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 58400,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "오메가는 인권이 없다",
+      "chats_raw": "13.7k",
+      "chats": 13700
+    },
+    {
+      "rank": 2,
+      "name": "조신국｜일처다부제",
+      "chats_raw": "4.3k",
+      "chats": 4300
+    },
+    {
+      "rank": 3,
+      "name": "테오 본",
+      "chats_raw": "4.2k",
+      "chats": 4200
+    },
+    {
+      "rank": 4,
+      "name": "OFF THE RECORD",
+      "chats_raw": "4.0k",
+      "chats": 4000
+    },
+    {
+      "rank": 5,
+      "name": "레녹스",
+      "chats_raw": "3.7k",
+      "chats": 3700
+    },
+    {
+      "rank": 6,
+      "name": "염경연",
+      "chats_raw": "3.2k",
+      "chats": 3200
+    },
+    {
+      "rank": 7,
+      "name": "비우주",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 8,
+      "name": "최재희",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 9,
+      "name": "발타자르 폰 에버하르트",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 10,
+      "name": "강아인",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 11,
+      "name": "포세이돈",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 12,
+      "name": "해강",
+      "chats_raw": "2.0k",
+      "chats": 2000
+    },
+    {
+      "rank": 13,
+      "name": "류상하",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 14,
+      "name": "성흔원 에덴",
+      "chats_raw": "1.6k",
+      "chats": 1600
+    },
+    {
+      "rank": 15,
+      "name": "범호진",
+      "chats_raw": "1.5k",
+      "chats": 1500
+    },
+    {
+      "rank": 16,
+      "name": "프로핏",
+      "chats_raw": "1.5k",
+      "chats": 1500
+    },
+    {
+      "rank": 17,
+      "name": "상식 개변",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    },
+    {
+      "rank": 18,
+      "name": "류보민",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 19,
+      "name": "이능력 생존 시뮬레이터♂",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    },
+    {
+      "rank": 20,
+      "name": "에이지",
+      "chats_raw": "1.3k",
+      "chats": 1300
+    }
+  ]
+}
