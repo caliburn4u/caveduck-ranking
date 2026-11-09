@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-09",
+  "segment": "all",
+  "segment_label": "전체 랭킹",
+  "time_kst": "22:13",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 87100,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "오메가는 인권이 없다",
+      "chats_raw": "13.8k",
+      "chats": 13800
+    },
+    {
+      "rank": 2,
+      "name": "히어로 빌런 시뮬레이터",
+      "chats_raw": "11.0k",
+      "chats": 11000
+    },
+    {
+      "rank": 3,
+      "name": "제 첫사랑은 걸레였습니다",
+      "chats_raw": "6.1k",
+      "chats": 6100
+    },
+    {
+      "rank": 4,
+      "name": "반정난",
+      "chats_raw": "5.2k",
+      "chats": 5200
+    },
+    {
+      "rank": 5,
+      "name": "메이트 길들이기💞 : 아발론",
+      "chats_raw": "5.0k",
+      "chats": 5000
+    },
+    {
+      "rank": 6,
+      "name": "조신국｜일처다부제",
+      "chats_raw": "4.3k",
+      "chats": 4300
+    },
+    {
+      "rank": 7,
+      "name": "테오 본",
+      "chats_raw": "4.2k",
+      "chats": 4200
+    },
+    {
+      "rank": 8,
+      "name": "단비",
+      "chats_raw": "4.1k",
+      "chats": 4100
+    },
+    {
+      "rank": 9,
+      "name": "OFF THE RECORD",
+      "chats_raw": "4.0k",
+      "chats": 4000
+    },
+    {
+      "rank": 10,
+      "name": "레녹스",
+      "chats_raw": "3.7k",
+      "chats": 3700
+    },
+    {
+      "rank": 11,
+      "name": "류다온",
+      "chats_raw": "3.4k",
+      "chats": 3400
+    },
+    {
+      "rank": 12,
+      "name": "염경연",
+      "chats_raw": "3.2k",
+      "chats": 3200
+    },
+    {
+      "rank": 13,
+      "name": "친구니까, 괜찮지?",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 14,
+      "name": "우리 집 비번 아는 여사친",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 15,
+      "name": "비우주",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 16,
+      "name": "최재희",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 17,
+      "name": "발타자르 폰 에버하르트",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 18,
+      "name": "강아인",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 19,
+      "name": "포세이돈",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    },
+    {
+      "rank": 20,
+      "name": "한서윤",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    }
+  ]
+}
