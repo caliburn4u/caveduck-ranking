@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-12",
+  "segment": "all",
+  "segment_label": "전체 랭킹",
+  "time_kst": "22:16",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 77900,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "로건",
+      "chats_raw": "11.2k",
+      "chats": 11200
+    },
+    {
+      "rank": 2,
+      "name": "위태로운 동거 : 서유나와 강해린",
+      "chats_raw": "7.5k",
+      "chats": 7500
+    },
+    {
+      "rank": 3,
+      "name": "공대 여신 이다은",
+      "chats_raw": "5.6k",
+      "chats": 5600
+    },
+    {
+      "rank": 4,
+      "name": "신데렐라, 그 이후의 이야기",
+      "chats_raw": "5.6k",
+      "chats": 5600
+    },
+    {
+      "rank": 5,
+      "name": "혜지의 후회",
+      "chats_raw": "5.0k",
+      "chats": 5000
+    },
+    {
+      "rank": 6,
+      "name": "절륜하시다면서요, 대공님",
+      "chats_raw": "4.0k",
+      "chats": 4000
+    },
+    {
+      "rank": 7,
+      "name": "성흔원 에덴",
+      "chats_raw": "4.0k",
+      "chats": 4000
+    },
+    {
+      "rank": 8,
+      "name": "추도원",
+      "chats_raw": "3.7k",
+      "chats": 3700
+    },
+    {
+      "rank": 9,
+      "name": "성북구미녀",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 10,
+      "name": "권도하",
+      "chats_raw": "3.3k",
+      "chats": 3300
+    },
+    {
+      "rank": 11,
+      "name": "니가 뭔데 내 선생인데?",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 12,
+      "name": "메이트 길들이기💞 : 아발론",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 13,
+      "name": "테오 본",
+      "chats_raw": "2.7k",
+      "chats": 2700
+    },
+    {
+      "rank": 14,
+      "name": "백현주",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 15,
+      "name": "카시안",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 16,
+      "name": "해강",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 17,
+      "name": "마법소녀물 중간보스가 되었다",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 18,
+      "name": "마태건",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 19,
+      "name": "오인씹 세계에서 살아남기",
+      "chats_raw": "2.2k",
+      "chats": 2200
+    },
+    {
+      "rank": 20,
+      "name": "북부대공의 정부가 되었다",
+      "chats_raw": "2.1k",
+      "chats": 2100
+    }
+  ]
+}
