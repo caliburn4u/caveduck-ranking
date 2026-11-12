@@ -1,0 +1,448 @@
+{
+  "date": "2026-11-12",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:18",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 46800,
+  "female_total": 60300,
+  "overlap": 1,
+  "count": 39,
+  "total_top20": 105200,
+  "list": [
+    {
+      "name": "로건",
+      "chats": 11200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 11200,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "위태로운 동거 : 서유나와 강해린",
+      "chats": 7500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 1,
+      "male_chats": 7500,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "공대 여신 이다은",
+      "chats": 5600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 2,
+      "male_chats": 5600,
+      "rank": 3,
+      "both": false
+    },
+    {
+      "name": "신데렐라, 그 이후의 이야기",
+      "chats": 5600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 5600,
+      "rank": 4,
+      "both": false
+    },
+    {
+      "name": "혜지의 후회",
+      "chats": 5000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 5000,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "절륜하시다면서요, 대공님",
+      "chats": 4000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 3,
+      "female_chats": 4000,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "성흔원 에덴",
+      "chats": 4000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 4,
+      "female_chats": 4000,
+      "rank": 7,
+      "both": false
+    },
+    {
+      "name": "추도원",
+      "chats": 3700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 3700,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "성북구미녀",
+      "chats": 3300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 6,
+      "female_chats": 3300,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "권도하",
+      "chats": 3300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 7,
+      "female_chats": 3300,
+      "rank": 10,
+      "both": false
+    },
+    {
+      "name": "니가 뭔데 내 선생인데?",
+      "chats": 3000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 4,
+      "male_chats": 3000,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "메이트 길들이기💞 : 아발론",
+      "chats": 2700,
+      "in": [
+        "male"
+      ],
+      "male_rank": 5,
+      "male_chats": 2700,
+      "rank": 12,
+      "both": false
+    },
+    {
+      "name": "테오 본",
+      "chats": 2700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 2700,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "백현주",
+      "chats": 2600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 2600,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "카시안",
+      "chats": 2500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 9,
+      "female_chats": 2500,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "마법소녀물 중간보스가 되었다",
+      "chats": 2300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 7,
+      "male_chats": 2300,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "해강",
+      "chats": 2300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 2300,
+      "rank": 17,
+      "both": false
+    },
+    {
+      "name": "마태건",
+      "chats": 2300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 11,
+      "female_chats": 2300,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "오인씹 세계에서 살아남기",
+      "chats": 2200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 2200,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "북부대공의 정부가 되었다",
+      "chats": 2100,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 2100,
+      "rank": 20,
+      "both": false
+    },
+    {
+      "name": "제 첫사랑은 걸레였습니다",
+      "chats": 2000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 8,
+      "male_chats": 2000,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "보급형 수인 패키지",
+      "chats": 1900,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 9,
+      "male_chats": 1900,
+      "female_rank": 14,
+      "female_chats": 1900,
+      "rank": 22,
+      "both": true
+    },
+    {
+      "name": "최재희",
+      "chats": 1900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 15,
+      "female_chats": 1900,
+      "rank": 23,
+      "both": false
+    },
+    {
+      "name": "린테라♡온라인",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 10,
+      "male_chats": 1800,
+      "rank": 24,
+      "both": false
+    },
+    {
+      "name": "단비",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 1800,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "레녹스",
+      "chats": 1700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 16,
+      "female_chats": 1700,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "하도현",
+      "chats": 1500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 17,
+      "female_chats": 1500,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "유부녀 직장 상사가 옆집으로 이사 왔다",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 1400,
+      "rank": 28,
+      "both": false
+    },
+    {
+      "name": "루피너스는 어느 손도 놓지 못한다",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 13,
+      "male_chats": 1400,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "은미로",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 1400,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "에단 워커",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 1400,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "과외 선생님이 소원권을 걸었다",
+      "chats": 1300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 1300,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "백상연",
+      "chats": 1300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 20,
+      "female_chats": 1300,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "반정난",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 1200,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "여자친구와 연애프로그램에 나갔다",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 1100,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "이세계 치유소에 어서 오세요!",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 1100,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "상식개변 시뮬레이터",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 1100,
+      "rank": 37,
+      "both": false
+    },
+    {
+      "name": "밀실의 보드게임 동아리",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 1000,
+      "rank": 38,
+      "both": false
+    },
+    {
+      "name": "상식 개변",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 1000,
+      "rank": 39,
+      "both": false
+    }
+  ]
+}
