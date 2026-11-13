@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-13",
+  "segment": "female",
+  "segment_label": "여성향",
+  "time_kst": "22:12",
+  "source": "box-browser",
+  "period": "1일",
+  "nsfw": true,
+  "total_top20": 69800,
+  "top20": [
+    {
+      "rank": 1,
+      "name": "로건",
+      "chats_raw": "9.0k",
+      "chats": 9000
+    },
+    {
+      "rank": 2,
+      "name": "카시안",
+      "chats_raw": "6.4k",
+      "chats": 6400
+    },
+    {
+      "rank": 3,
+      "name": "신데렐라, 그 이후의 이야기",
+      "chats_raw": "6.2k",
+      "chats": 6200
+    },
+    {
+      "rank": 4,
+      "name": "절륜하시다면서요, 대공님",
+      "chats_raw": "5.9k",
+      "chats": 5900
+    },
+    {
+      "rank": 5,
+      "name": "문승재",
+      "chats_raw": "5.6k",
+      "chats": 5600
+    },
+    {
+      "rank": 6,
+      "name": "아카츠키 아라타",
+      "chats_raw": "5.0k",
+      "chats": 5000
+    },
+    {
+      "rank": 7,
+      "name": "성흔원 에덴",
+      "chats_raw": "3.5k",
+      "chats": 3500
+    },
+    {
+      "rank": 8,
+      "name": "🎲 랜덤 가챠 성녀님!",
+      "chats_raw": "3.0k",
+      "chats": 3000
+    },
+    {
+      "rank": 9,
+      "name": "오인씹 세계에서 살아남기",
+      "chats_raw": "2.8k",
+      "chats": 2800
+    },
+    {
+      "rank": 10,
+      "name": "미카엘",
+      "chats_raw": "2.6k",
+      "chats": 2600
+    },
+    {
+      "rank": 11,
+      "name": "성북구미녀",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 12,
+      "name": "보급형 수인 패키지",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 13,
+      "name": "권도하",
+      "chats_raw": "2.5k",
+      "chats": 2500
+    },
+    {
+      "rank": 14,
+      "name": "해강",
+      "chats_raw": "2.3k",
+      "chats": 2300
+    },
+    {
+      "rank": 15,
+      "name": "나츠메 토와",
+      "chats_raw": "1.8k",
+      "chats": 1800
+    },
+    {
+      "rank": 16,
+      "name": "북부대공의 정부가 되었다",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 17,
+      "name": "추도원",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 18,
+      "name": "세상이 그대를 외면할지라도",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 19,
+      "name": "도미넌트 인큐버스",
+      "chats_raw": "1.7k",
+      "chats": 1700
+    },
+    {
+      "rank": 20,
+      "name": "비우주",
+      "chats_raw": "1.4k",
+      "chats": 1400
+    }
+  ]
+}
