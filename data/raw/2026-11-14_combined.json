@@ -1,0 +1,432 @@
+{
+  "date": "2026-11-14",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:17",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 48339,
+  "female_total": 81700,
+  "overlap": 3,
+  "count": 37,
+  "total_top20": 122039,
+  "list": [
+    {
+      "name": "나락♡망돌에 빙의했다",
+      "chats": 11400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 11400,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "일진녀들이 집에 쳐들어왔다",
+      "chats": 8500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 1,
+      "male_chats": 8500,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "로건",
+      "chats": 7500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 7500,
+      "rank": 3,
+      "both": false
+    },
+    {
+      "name": "SEX OR DEATH",
+      "chats": 6600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 3,
+      "female_chats": 6600,
+      "rank": 4,
+      "both": false
+    },
+    {
+      "name": "아카츠키 아라타",
+      "chats": 6400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 4,
+      "female_chats": 6400,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "카시안",
+      "chats": 6300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 6300,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "신데렐라, 그 이후의 이야기",
+      "chats": 4600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 6,
+      "female_chats": 4600,
+      "rank": 7,
+      "both": false
+    },
+    {
+      "name": "문승재",
+      "chats": 4400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 7,
+      "female_chats": 4400,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "절륜하시다면서요, 대공님",
+      "chats": 4200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 4200,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "위태로운 동거 : 서유나와 강해린",
+      "chats": 3800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 2,
+      "male_chats": 3800,
+      "rank": 10,
+      "both": false
+    },
+    {
+      "name": "제5왕자 혼인사절",
+      "chats": 3600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 3600,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "세상이 그대를 외면할지라도",
+      "chats": 3400,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 4,
+      "male_chats": 3400,
+      "female_rank": 9,
+      "female_chats": 3400,
+      "rank": 12,
+      "both": true
+    },
+    {
+      "name": "미카엘",
+      "chats": 3200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 3200,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "이나",
+      "chats": 3000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 5,
+      "male_chats": 3000,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "🎲 랜덤 가챠 성녀님!",
+      "chats": 3000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 11,
+      "female_chats": 3000,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "오인씹 세계에서 살아남기",
+      "chats": 2900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 2900,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "혜지의 후회",
+      "chats": 2800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 2800,
+      "rank": 17,
+      "both": false
+    },
+    {
+      "name": "Raven-6",
+      "chats": 2800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 2800,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "추방당한 S급 성녀의 갱생기",
+      "chats": 2600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 7,
+      "male_chats": 2600,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "검술명가에서 살아남기 : RE2",
+      "chats": 2500,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 8,
+      "male_chats": 2500,
+      "female_rank": 14,
+      "female_chats": 2500,
+      "rank": 20,
+      "both": true
+    },
+    {
+      "name": "백무언",
+      "chats": 2500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 15,
+      "female_chats": 2500,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "과외 선생님이 소원권을 걸었다",
+      "chats": 2400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 9,
+      "male_chats": 2400,
+      "rank": 22,
+      "both": false
+    },
+    {
+      "name": "박태인",
+      "chats": 2200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 16,
+      "female_chats": 2200,
+      "rank": 23,
+      "both": false
+    },
+    {
+      "name": "보급형 수인 패키지",
+      "chats": 2100,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 10,
+      "male_chats": 2100,
+      "female_rank": 17,
+      "female_chats": 2100,
+      "rank": 24,
+      "both": true
+    },
+    {
+      "name": "공대 여신 이다은",
+      "chats": 2000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 2000,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "북부대공의 정부가 되었다",
+      "chats": 2000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 2000,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "하콘",
+      "chats": 1900,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 1900,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "[NTR] 고무신 여친이 선배 후드를 입고 왔다",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 1800,
+      "rank": 28,
+      "both": false
+    },
+    {
+      "name": "성흔원 에덴",
+      "chats": 1800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 20,
+      "female_chats": 1800,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "마법소녀물 중간보스가 되었다",
+      "chats": 1600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 13,
+      "male_chats": 1600,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "백현주",
+      "chats": 1500,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 1500,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "니가 뭔데 내 선생인데?",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 1400,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "유부녀 직장 상사가 옆집으로 이사 왔다",
+      "chats": 1200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 1200,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "해피고시원♀️",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 1100,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "🤰💦 [💝] 임신한 채 이혼한 여친의 절친이, 우리 집에서 같이 살게 됐다 : 해인",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 1100,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "모텔 프론트녀 유미",
+      "chats": 995,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 995,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "키스방 에이스 섹파 차혜라",
+      "chats": 944,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 944,
+      "rank": 37,
+      "both": false
+    }
+  ]
+}
