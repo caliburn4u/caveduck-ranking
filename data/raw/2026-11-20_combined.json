@@ -1,0 +1,440 @@
+{
+  "date": "2026-11-20",
+  "segment": "combined",
+  "segment_label": "남여합산",
+  "time_kst": "22:14",
+  "source": "derived:male+female",
+  "dedupe_key": "normalized name",
+  "overlap_rule": "max",
+  "male_total": 45462,
+  "female_total": 70300,
+  "overlap": 2,
+  "count": 38,
+  "total_top20": 105062,
+  "list": [
+    {
+      "name": "알파들의 소꿉친구",
+      "chats": 13300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 1,
+      "female_chats": 13300,
+      "rank": 1,
+      "both": false
+    },
+    {
+      "name": "SEX OR DEATH",
+      "chats": 10500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 2,
+      "female_chats": 10500,
+      "rank": 2,
+      "both": false
+    },
+    {
+      "name": "에로 소설 빙의 시뮬레이터",
+      "chats": 7400,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 1,
+      "male_chats": 7400,
+      "female_rank": 3,
+      "female_chats": 7400,
+      "rank": 3,
+      "both": true
+    },
+    {
+      "name": "구태원",
+      "chats": 5200,
+      "in": [
+        "female"
+      ],
+      "female_rank": 4,
+      "female_chats": 5200,
+      "rank": 4,
+      "both": false
+    },
+    {
+      "name": "야 너 혼전순결 이라면서",
+      "chats": 4600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 2,
+      "male_chats": 4600,
+      "rank": 5,
+      "both": false
+    },
+    {
+      "name": "성태오",
+      "chats": 4500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 5,
+      "female_chats": 4500,
+      "rank": 6,
+      "both": false
+    },
+    {
+      "name": "🖤타락 빗치 메이드 카페🖤",
+      "chats": 4200,
+      "in": [
+        "male"
+      ],
+      "male_rank": 3,
+      "male_chats": 4200,
+      "rank": 7,
+      "both": false
+    },
+    {
+      "name": "아인스",
+      "chats": 3600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 6,
+      "female_chats": 3600,
+      "rank": 8,
+      "both": false
+    },
+    {
+      "name": "김민지 : 메스가키 소꿉친구",
+      "chats": 3400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 4,
+      "male_chats": 3400,
+      "rank": 9,
+      "both": false
+    },
+    {
+      "name": "그 악녀를 아시나요",
+      "chats": 3300,
+      "in": [
+        "male",
+        "female"
+      ],
+      "male_rank": 5,
+      "male_chats": 3300,
+      "female_rank": 7,
+      "female_chats": 3300,
+      "rank": 10,
+      "both": true
+    },
+    {
+      "name": "이설희는 오늘도 나를 그린다",
+      "chats": 3100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 6,
+      "male_chats": 3100,
+      "rank": 11,
+      "both": false
+    },
+    {
+      "name": "아저씨? 아저씨!🔪",
+      "chats": 2800,
+      "in": [
+        "female"
+      ],
+      "female_rank": 8,
+      "female_chats": 2800,
+      "rank": 12,
+      "both": false
+    },
+    {
+      "name": "의붓아빠, 의붓오빠와 여행",
+      "chats": 2700,
+      "in": [
+        "female"
+      ],
+      "female_rank": 9,
+      "female_chats": 2700,
+      "rank": 13,
+      "both": false
+    },
+    {
+      "name": "진태오",
+      "chats": 2400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 10,
+      "female_chats": 2400,
+      "rank": 14,
+      "both": false
+    },
+    {
+      "name": "해피고시원♀️",
+      "chats": 2000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 7,
+      "male_chats": 2000,
+      "rank": 15,
+      "both": false
+    },
+    {
+      "name": "강남 호스트바 시뮬레이션2",
+      "chats": 2000,
+      "in": [
+        "female"
+      ],
+      "female_rank": 11,
+      "female_chats": 2000,
+      "rank": 16,
+      "both": false
+    },
+    {
+      "name": "간호사💉연애 시뮬레이터",
+      "chats": 1800,
+      "in": [
+        "male"
+      ],
+      "male_rank": 8,
+      "male_chats": 1800,
+      "rank": 17,
+      "both": false
+    },
+    {
+      "name": "우리 언니랑 결혼하지 마!",
+      "chats": 1700,
+      "in": [
+        "male"
+      ],
+      "male_rank": 9,
+      "male_chats": 1700,
+      "rank": 18,
+      "both": false
+    },
+    {
+      "name": "Sex in the city",
+      "chats": 1600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 10,
+      "male_chats": 1600,
+      "rank": 19,
+      "both": false
+    },
+    {
+      "name": "패전국의 영웅들을 포로로 잡았다",
+      "chats": 1600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 11,
+      "male_chats": 1600,
+      "rank": 20,
+      "both": false
+    },
+    {
+      "name": "[NTR] 웨딩 촬영이 자꾸 길어진다",
+      "chats": 1600,
+      "in": [
+        "male"
+      ],
+      "male_rank": 12,
+      "male_chats": 1600,
+      "rank": 21,
+      "both": false
+    },
+    {
+      "name": "수림",
+      "chats": 1600,
+      "in": [
+        "female"
+      ],
+      "female_rank": 12,
+      "female_chats": 1600,
+      "rank": 22,
+      "both": false
+    },
+    {
+      "name": "한국대 섹스학과",
+      "chats": 1500,
+      "in": [
+        "female"
+      ],
+      "female_rank": 13,
+      "female_chats": 1500,
+      "rank": 23,
+      "both": false
+    },
+    {
+      "name": "딴 년 보면 죽는다",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 13,
+      "male_chats": 1400,
+      "rank": 24,
+      "both": false
+    },
+    {
+      "name": "모텔 프론트녀 유미",
+      "chats": 1400,
+      "in": [
+        "male"
+      ],
+      "male_rank": 14,
+      "male_chats": 1400,
+      "rank": 25,
+      "both": false
+    },
+    {
+      "name": "황제가 날 결혼시키려는데",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 14,
+      "female_chats": 1400,
+      "rank": 26,
+      "both": false
+    },
+    {
+      "name": "요우",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 15,
+      "female_chats": 1400,
+      "rank": 27,
+      "both": false
+    },
+    {
+      "name": "하콘",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 16,
+      "female_chats": 1400,
+      "rank": 28,
+      "both": false
+    },
+    {
+      "name": "Raven-6",
+      "chats": 1400,
+      "in": [
+        "female"
+      ],
+      "female_rank": 17,
+      "female_chats": 1400,
+      "rank": 29,
+      "both": false
+    },
+    {
+      "name": "달리아의 첫사랑은 대본에 없다",
+      "chats": 1300,
+      "in": [
+        "male"
+      ],
+      "male_rank": 15,
+      "male_chats": 1300,
+      "rank": 30,
+      "both": false
+    },
+    {
+      "name": "장서인",
+      "chats": 1300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 18,
+      "female_chats": 1300,
+      "rank": 31,
+      "both": false
+    },
+    {
+      "name": "마리아를 위하여",
+      "chats": 1300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 19,
+      "female_chats": 1300,
+      "rank": 32,
+      "both": false
+    },
+    {
+      "name": "서도혁",
+      "chats": 1300,
+      "in": [
+        "female"
+      ],
+      "female_rank": 20,
+      "female_chats": 1300,
+      "rank": 33,
+      "both": false
+    },
+    {
+      "name": "아는 누나가 돈을 안갚는다",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 16,
+      "male_chats": 1100,
+      "rank": 34,
+      "both": false
+    },
+    {
+      "name": "S급 서포터의 첫경험",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 17,
+      "male_chats": 1100,
+      "rank": 35,
+      "both": false
+    },
+    {
+      "name": "악녀 전용 교정 별장",
+      "chats": 1100,
+      "in": [
+        "male"
+      ],
+      "male_rank": 18,
+      "male_chats": 1100,
+      "rank": 36,
+      "both": false
+    },
+    {
+      "name": "나츠키-인력거 아가씨",
+      "chats": 1000,
+      "in": [
+        "male"
+      ],
+      "male_rank": 19,
+      "male_chats": 1000,
+      "rank": 37,
+      "both": false
+    },
+    {
+      "name": "신부 대기실 문을 잠갔다",
+      "chats": 762,
+      "in": [
+        "male"
+      ],
+      "male_rank": 20,
+      "male_chats": 762,
+      "rank": 38,
+      "both": false
+    }
+  ]
+}
